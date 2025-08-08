@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  BASE:
   - {t: '=', s: +}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: LAYER1, h: toggle}
+  - {t: NAV, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -65,7 +65,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  LAYER1:
+  NAV:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -83,8 +83,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - $$mdi:arrow-up-bold$$
+  - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgUp
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - KP DIVIDE
   - KP 7
@@ -112,7 +112,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - KP EQUAL
+  - KP DOT
   - KP 1
   - KP 2
   - KP 3
