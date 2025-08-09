@@ -41,7 +41,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - Z
+  - {t: '$$mdi:apple-keyboard-command$$', h: Z}
   - X
   - C
   - V
@@ -55,17 +55,17 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
+  - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-option$$
-  - {t: NAV, h: toggle}
+  - {t: NAV&Fn, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - LAYER2
+  - {t: '$$mdi:backspace-reverse-outline$$', h: CON}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  NAV:
+  NAV&Fn:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -81,10 +81,10 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - END
   - $$mdi:arrow-up-bold$$
+  - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - KP DIVIDE
   - KP 7
@@ -104,7 +104,7 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -116,7 +116,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - KP EQUAL
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,8 +130,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  LAYER2:
-  - {t: '$$mdi:transfer$$', type: trans}
+  CON:
+  - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -139,14 +139,14 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
   - BT CLR ALL
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
