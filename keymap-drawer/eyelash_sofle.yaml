@@ -41,7 +41,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: Z}
+  - Z
   - X
   - C
   - V
@@ -55,7 +55,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '`', s: '~'}
+  - {t: '`', h: '$$mdi:apple-keyboard-command$$', s: '~'}
   - $$mdi:apple-keyboard-option$$
   - {t: NAV&Fn, h: toggle}
   - $$mdi:keyboard-space$$
@@ -116,7 +116,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
