@@ -73,11 +73,23 @@
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &trans           &rgb_ug RGB_SPD  &rgb_ug RGB_SPI    &trans           &trans  &trans
 &trans          &out OUT_USB  &out OUT_BLE  &trans        &trans        &trans          &mmv MOVE_LEFT   &trans           &rgb_ug RGB_BRD  &rgb_ug RGB_BRI    &trans           &trans  &trans
 &trans          &sys_reset    &trans        &bootloader   &soft_off     &trans          &mmv MOVE_RIGHT  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF    &trans           &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans           &trans           &trans             &trans           &trans
+&trans          &trans        &trans        &trans        &to 3         &trans          &mkp LCLK        &trans           &trans           &trans             &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
             label = "CON";
+        };
+
+        layer3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &to 0   &trans    &trans  &trans  &trans    &trans        &trans     &trans
+            >;
+
+            label = "RIGHT_ARROW";
         };
     };
 };
