@@ -18,7 +18,7 @@ manifest:
     # - name: mario-peripheral-animation
     #   remote: gpeye
     #   revision: main
-      - name: nice-view-battery
+    - name: nice-view-battery
       remote: infely
       revision: main
   self:
