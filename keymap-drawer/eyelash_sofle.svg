@@ -1316,8 +1316,8 @@ rect.held, rect.combo.held {
 <g transform="translate(314, 283) rotate(30.0)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#GAME">
-<text x="0" y="-4" class="key tap layer-activator">GAME</text>
+<a href="#R_ARW">
+<text x="0" y="-4" class="key tap layer-activator">R_ARW</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(389, 294) rotate(30.0)" class="key trans keypos-57">
@@ -1356,8 +1356,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1165)" class="layer-GAME">
-<text x="0" y="28" class="label" id="GAME">GAME:</text>
+<g transform="translate(40, 1165)" class="layer-R_ARW">
+<text x="0" y="28" class="label" id="R_ARW">R_ARW:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
