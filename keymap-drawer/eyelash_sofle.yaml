@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -55,7 +55,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
   - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
   - {t: '$$mdi:keyboard-tab$$', h: NAV&Fn}
   - $$mdi:keyboard-space$$
