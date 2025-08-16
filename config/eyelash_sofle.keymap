@@ -38,16 +38,25 @@
     behaviors {
     };
 
+    macros {
+        esc_shift_ctrl: esc_shift_ctrl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE &kp LEFT_SHIFT &kp LEFT_CONTROL>;
+            label = "ESC_SHIFT_CTRL";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         base {
             bindings = <
-&kp EQUAL   &kp N1            &kp N2                     &kp N3        &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7           &kp N8      &kp N9            &kp N0             &kp MINUS
-&kp GRAVE   &kp Q             &kp W                      &kp E         &kp R      &kp T        &kp DOWN_ARROW   &kp Y      &kp U            &kp I       &kp O             &kp P              &kp BACKSLASH
-&kp ESCAPE  &kp A             &kp S                      &kp D         &kp F      &kp G        &kp LEFT_ARROW   &kp H      &kp J            &kp K       &kp L             &kp SEMI           &kp APOS
-&kp LSHFT   &kp Z             &kp X                      &kp C         &kp V      &kp B        &kp RIGHT_ARROW  &kp N      &kp M            &kp COMMA   &kp DOT           &kp FSLH           &kp RIGHT_SHIFT
-&kp C_MUTE  &kp LEFT_BRACKET  &mt LEFT_CONTROL LEFT_GUI  &kp LEFT_ALT  &lt 1 TAB  &kp SPACE    &kp ENTER        &kp ENTER  &lt 2 BACKSPACE  &kp DELETE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp EQUAL              &kp N1           &kp N2        &kp N3        &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7           &kp N8      &kp N9            &kp N0             &kp MINUS
+&kp GRAVE              &kp Q            &kp W         &kp E         &kp R      &kp T        &kp DOWN_ARROW   &kp Y      &kp U            &kp I       &kp O             &kp P              &kp BACKSLASH
+&mt LEFT_SHIFT ESCAPE  &kp A            &kp S         &kp D         &kp F      &kp G        &kp LEFT_ARROW   &kp H      &kp J            &kp K       &kp L             &kp SEMI           &mt RIGHT_SHIFT APOS
+&kp LEFT_CONTROL       &kp Z            &kp X         &kp C         &kp V      &kp B        &kp RIGHT_ARROW  &kp N      &kp M            &kp COMMA   &kp DOT           &kp FSLH           &kp RIGHT_CONTROL
+&kp C_MUTE             &esc_shift_ctrl  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 TAB  &kp SPACE    &kp ENTER        &kp ENTER  &lt 2 BACKSPACE  &kp DELETE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
