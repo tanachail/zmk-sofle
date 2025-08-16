@@ -43,11 +43,11 @@
 
         base {
             bindings = <
-&kp EQUAL           &kp N1          &kp N2        &kp N3        &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7           &kp N8      &kp N9            &kp N0             &kp MINUS
-&kp GRAVE           &kp Q           &kp W         &kp E         &kp R      &kp T        &kp DOWN_ARROW   &kp Y      &kp U            &kp I       &kp O             &kp P              &kp BACKSLASH
-&mt LEFT_SHIFT ESC  &kp A           &kp S         &kp D         &kp F      &kp G        &kp LEFT_ARROW   &kp H      &kp J            &kp K       &kp L             &kp SEMI           &mt RIGHT_SHIFT APOS
-&kp LEFT_CONTROL    &kp Z           &kp X         &kp C         &kp V      &kp B        &kp RIGHT_ARROW  &kp N      &kp M            &kp COMMA   &kp DOT           &kp FSLH           &kp RIGHT_CONTROL
-&kp C_MUTE          &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 TAB  &kp SPACE    &kp ENTER        &kp ENTER  &lt 2 BACKSPACE  &kp DELETE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp EQUAL                  &kp N1  &kp N2  &kp N3                     &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7           &kp N8             &kp N9   &kp N0    &kp MINUS
+&kp GRAVE                  &kp Q   &kp W   &kp E                      &kp R      &kp T        &kp DOWN_ARROW   &kp Y      &kp U            &kp I              &kp O    &kp P     &kp BACKSLASH
+&mt LEFT_SHIFT ESC         &kp A   &kp S   &kp D                      &kp F      &kp G        &kp LEFT_ARROW   &kp H      &kp J            &kp K              &kp L    &kp SEMI  &mt RIGHT_SHIFT APOS
+&mt LEFT_CONTROL LEFT_GUI  &kp Z   &kp X   &kp C                      &kp V      &kp B        &kp RIGHT_ARROW  &kp N      &kp M            &kp COMMA          &kp DOT  &kp FSLH  &mt RIGHT_CONTROL DELETE
+&kp C_MUTE                 &trans  &trans  &mt LEFT_ALT LEFT_BRACKET  &lt 1 TAB  &kp SPACE    &kp ENTER        &kp ENTER  &lt 2 BACKSPACE  &kp RIGHT_BRACKET  &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -58,8 +58,8 @@
             bindings = <
 &kp KP_NUMLOCK  &kp F1  &kp F2    &kp F3          &kp F4     &kp F5           &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10       &kp F11
 &trans          &trans  &kp END   &kp UP_ARROW    &kp HOME   &kp PG_UP        &mmv MOVE_DOWN   &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp F12
-&trans          &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp LEFT_BRACKET
-&trans          &trans  &trans    &trans          &trans     &trans           &mmv MOVE_RIGHT  &kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &kp RIGHT_BRACKET
+&trans          &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans
+&trans          &trans  &trans    &trans          &trans     &trans           &mmv MOVE_RIGHT  &kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &trans
 &kp C_MUTE      &trans  &trans    &trans          &trans     &trans           &mkp LCLK        &trans           &kp KP_NUMBER_0  &trans           &trans           &trans
             >;
 
@@ -82,11 +82,11 @@
 
         layer3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans    &kp UP_ARROW  &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT
-&trans  &trans  &trans  &trans  &to 0   &trans    &trans  &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &kp UP_ARROW    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp RETURN  &kp DOWN        &kp RIGHT
+&trans  &trans  &trans  &trans  &to 0   &trans    &trans  &trans  &trans  &trans  &trans      &kp LEFT_ARROW
             >;
 
             label = "R_ARW";
