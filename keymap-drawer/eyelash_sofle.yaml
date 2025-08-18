@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  BASE:
+  BS_QWERTY:
   - {t: '=', s: +}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -252,7 +252,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: BASE, h: toggle}
+  - {t: BS_QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -260,3 +260,68 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
+  BS_DVORAK:
+  - Sft+\
+  - {t: Sft+=, s: Sft++}
+  - {t: '[', s: '{'}
+  - {t: Sft+3, s: Sft+#}
+  - {t: Sft+9, s: Sft+(}
+  - {t: Sft+5, s: Sft+%}
+  - $$mdi:arrow-up-bold$$
+  - {t: '=', s: +}
+  - {t: Sft+0, s: Sft+)}
+  - {t: 'Sft+]', s: 'Sft+}'}
+  - {t: ']', s: '}'}
+  - {t: Sft+8, s: Sft+*}
+  - {t: Sft+/, s: 'Sft+?'}
+  - {t: Sft+7, s: Sft+&}
+  - {t: ;, s: ':'}
+  - {t: ',', s: <}
+  - .
+  - P
+  - Y
+  - $$mdi:arrow-down-bold$$
+  - F
+  - G
+  - C
+  - R
+  - L
+  - \
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - A
+  - O
+  - E
+  - U
+  - I
+  - $$mdi:arrow-left-bold$$
+  - D
+  - H
+  - T
+  - N
+  - S
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '''', s: '"'}
+  - Q
+  - J
+  - K
+  - X
+  - $$mdi:arrow-right-bold$$
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+2
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
