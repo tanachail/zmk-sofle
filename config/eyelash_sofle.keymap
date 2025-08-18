@@ -51,7 +51,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "BASE";
+            display-name = "BS_QWERTY";
         };
 
         layer1 {
@@ -90,6 +90,19 @@
             >;
 
             label = "R_ARW";
+        };
+
+        dvorak {
+            display-name = "BS_DVORAK";
+            bindings = <
+&kp LS(NON_US_BACKSLASH)  &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp LS(N3)          &kp LS(N9)  &kp LS(N5)    &kp UP_ARROW     &kp EQUAL  &kp LS(N0)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp LS(N8)  &kp LS(SLASH)
+&kp LS(N7)                &kp SEMICOLON  &kp COMMA         &kp PERIOD          &kp P       &kp Y         &kp DOWN_ARROW   &kp F      &kp G       &kp C                  &kp R              &kp L       &kp NON_US_BACKSLASH
+&mt LEFT_SHIFT ESC        &kp A          &kp O             &kp E               &kp U       &kp I         &kp LEFT_ARROW   &kp D      &kp H       &kp T                  &kp N              &kp S       &mt RIGHT_SHIFT MINUS
+&trans                    &kp SQT        &kp Q             &kp J               &kp K       &kp X         &kp RIGHT_ARROW  &kp B      &kp M       &kp W                  &kp V              &kp Z       &trans
+&kp C_MUTE                &trans         &trans            &mt LEFT_ALT SLASH  &trans      &trans        &kp ENTER        &trans     &trans      &kp LS(NUMBER_2)       &trans             &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
     };
 };
