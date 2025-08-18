@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: CON}
   - {t: ']', s: '}'}
-  - {t: DVORAK, h: toggle}
+  - {t: R_ARW, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV&Fn:
   - KP NUMLOCK
@@ -187,7 +187,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: R_ARW, h: toggle}
+  - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
