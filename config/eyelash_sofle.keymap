@@ -118,4 +118,18 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        dvorak_nav {
+            if-layers = <4 1>;
+            then-layer = <1>;
+        };
+
+        dvorak_con {
+            if-layers = <4 2>;
+            then-layer = <2>;
+        };
+    };
 };
