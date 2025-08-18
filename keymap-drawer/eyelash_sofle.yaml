@@ -57,8 +57,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
-  - {t: '$$mdi:keyboard-tab$$', h: NAV&Fn}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: CON}
