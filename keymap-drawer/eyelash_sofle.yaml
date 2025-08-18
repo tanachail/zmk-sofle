@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  BS_QWERTY:
+  QWERTY:
   - {t: '=', s: +}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: CON}
   - {t: ']', s: '}'}
-  - {t: BS_DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV&Fn:
   - KP NUMLOCK
@@ -252,7 +252,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: BS_QWERTY, h: toggle}
+  - {t: QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -260,72 +260,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
-  BS_DVORAK:
-  - Sft+\
-  - {t: Sft+=, s: Sft++}
-  - {t: '[', s: '{'}
-  - {t: Sft+3, s: Sft+#}
-  - {t: Sft+9, s: Sft+(}
-  - {t: Sft+7, s: Sft+&}
-  - $$mdi:arrow-up-bold$$
-  - {t: '=', s: +}
-  - {t: Sft+0, s: Sft+)}
-  - {t: 'Sft+]', s: 'Sft+}'}
-  - {t: ']', s: '}'}
-  - {t: Sft+8, s: Sft+*}
-  - Sft+1
-  - {t: '`', s: '~'}
-  - {t: ;, s: ':'}
-  - {t: ',', s: <}
-  - .
-  - P
-  - Y
-  - $$mdi:arrow-down-bold$$
-  - F
-  - G
-  - C
-  - R
-  - L
-  - \
-  - {t: '$$mdi:keyboard-esc$$', h: SH_DVORAK}
-  - A
-  - O
-  - E
-  - U
-  - I
-  - $$mdi:arrow-left-bold$$
-  - D
-  - H
-  - T
-  - N
-  - S
-  - {t: '-', h: SH_DVORAK, s: _}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '''', s: '"'}
-  - Q
-  - J
-  - K
-  - X
-  - $$mdi:arrow-right-bold$$
-  - B
-  - M
-  - W
-  - V
-  - Z
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+2
-  - {t: BS_QWERTY, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  SH_DVORAK:
+  DVORAK:
   - {t: '`', s: '~'}
   - '1'
   - '2'
