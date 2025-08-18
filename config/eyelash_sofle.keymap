@@ -86,7 +86,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &kp UP_ARROW    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp RETURN  &kp DOWN        &kp RIGHT
-&trans  &trans  &trans  &trans  &to 0   &trans    &trans  &trans  &trans  &trans  &trans      &kp LEFT_ARROW
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans      &kp LEFT_ARROW
             >;
 
             label = "R_ARW";
