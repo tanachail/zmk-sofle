@@ -106,7 +106,7 @@
         };
 
         dvorak2 {
-            display-name = "DVORAK";
+            display-name = "DVORAK2";
             bindings = <
 &kp GRAVE             &kp NUMBER_1       &kp NUMBER_2   &kp N3                      &kp NUMBER_4  &kp N5       &kp UP_ARROW     &kp NUMBER_6  &kp N7     &kp N8            &kp N9     &kp N0     &kp LS(N5)
 &kp LS(GRAVE)         &kp LS(SEMICOLON)  &kp LS(COMMA)  &kp LS(PERIOD)              &kp LS(P)     &kp LS(Y)    &kp DOWN_ARROW   &kp LS(F)     &kp LS(G)  &kp LS(C)         &kp LS(R)  &kp LS(L)  &kp LS(NUMBER_3)
