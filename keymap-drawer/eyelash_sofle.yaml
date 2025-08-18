@@ -300,7 +300,7 @@ layers:
   - Sft+N
   - Sft+S
   - {t: Sft+-, s: Sft+_, type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+$$mdi:apple-keyboard-control$$
   - {t: Sft+', s: Sft+"}
   - Sft+Q
   - Sft+J
@@ -316,7 +316,7 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+/, h: '$$mdi:apple-keyboard-option$$', s: 'Sft+?'}
+  - {t: Sft+/, h: 'Sft+$$mdi:apple-keyboard-option$$', s: 'Sft+?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
