@@ -119,17 +119,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        dvorak_con {
-            if-layers = <4 2>;
-            then-layer = <2>;
-        };
-
-        dvorak_nav {
-            if-layers = <1 4>;
-            then-layer = <1>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
