@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '[', s: '{'}
   - Z
   - X
   - C
@@ -51,18 +51,18 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
+  - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
-  - {t: '[', h: '$$mdi:apple-keyboard-option$$', s: '{'}
   - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: CON}
-  - {t: ']', s: '}'}
+  - $$mdi:backspace-reverse-outline$$
   - {t: R_ARW, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   DVORAK:
@@ -105,7 +105,7 @@ layers:
   - Sft+N
   - Sft+S
   - {t: Sft+-, s: Sft+_, type: held alternate}
-  - Sft+$$mdi:apple-keyboard-control$$
+  - {t: Sft+/, s: 'Sft+?'}
   - {t: Sft+', s: Sft+"}
   - Sft+Q
   - Sft+J
@@ -116,18 +116,18 @@ layers:
   - Sft+M
   - Sft+W
   - Sft+V
-  - Sft+Z
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Sft+Z, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: Sft+6, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+/, h: 'Sft+$$mdi:apple-keyboard-option$$', s: 'Sft+?'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+6
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV&Fn:
