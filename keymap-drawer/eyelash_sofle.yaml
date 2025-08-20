@@ -41,7 +41,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
   - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
-  - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
+  - Z
   - X
   - C
   - V
@@ -56,11 +56,11 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-command$$
+  - {t: LEFT WIN, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', h: CON}
   - $$mdi:backspace-reverse-outline$$
   - {t: R_ARW, h: toggle}
@@ -106,7 +106,7 @@ layers:
   - Sft+S
   - {t: Sft+-, s: Sft+_, type: held alternate}
   - {t: Sft+/, h: 'Sft+$$mdi:apple-keyboard-control$$', s: 'Sft+?'}
-  - {t: Sft+', h: 'Sft+$$mdi:apple-keyboard-option$$', s: Sft+"}
+  - {t: Sft+', s: Sft+"}
   - Sft+Q
   - Sft+J
   - Sft+K
