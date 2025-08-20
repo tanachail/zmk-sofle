@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
-  - {t: '[', s: '{'}
+  - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
   - Z
   - X
   - C
@@ -105,7 +105,7 @@ layers:
   - Sft+N
   - Sft+S
   - {t: Sft+-, s: Sft+_, type: held alternate}
-  - {t: Sft+/, s: 'Sft+?'}
+  - {t: Sft+/, h: 'Sft+$$mdi:apple-keyboard-control$$', s: 'Sft+?'}
   - {t: Sft+', s: Sft+"}
   - Sft+Q
   - Sft+J
