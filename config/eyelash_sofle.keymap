@@ -43,11 +43,11 @@
 
         base {
             bindings = <
-&kp EQUAL           &kp N1  &kp N2  &kp N3        &kp N4       &kp N5                    &kp UP_ARROW     &kp N6                &kp N7     &kp N8      &kp N9   &kp N0              &kp MINUS
-&kp GRAVE           &kp Q   &kp W   &kp E         &kp R        &kp T                     &kp DOWN_ARROW   &kp Y                 &kp U      &kp I       &kp O    &kp P               &kp BACKSLASH
-&mt LEFT_SHIFT ESC  &kp A   &kp S   &kp D         &kp F        &kp G                     &kp LEFT_ARROW   &kp H                 &kp J      &kp K       &kp L    &kp SEMI            &mt RIGHT_SHIFT APOS
-&kp LEFT_BRACKET    &kp Z   &kp X   &kp C         &kp V        &kp B                     &kp RIGHT_ARROW  &kp N                 &kp M      &kp COMMA   &kp DOT  &mt RIGHT_ALT FSLH  &mt RIGHT_CONTROL RIGHT_BRACKET
-&kp C_MUTE          &trans  &trans  &kp LEFT_GUI  &lt 3 SPACE  &mt LEFT_ALT BACKSPACE    &kp ENTER        &mt LEFT_CONTROL TAB  &lt 4 RET  &kp DELETE  &to 5    &trans
+&kp EQUAL                      &kp N1          &kp N2  &kp N3        &kp N4       &kp N5           &kp UP_ARROW     &kp N6                &kp N7     &kp N8      &kp N9   &kp N0              &kp MINUS
+&kp GRAVE                      &kp Q           &kp W   &kp E         &kp R        &kp T            &kp DOWN_ARROW   &kp Y                 &kp U      &kp I       &kp O    &kp P               &kp BACKSLASH
+&mt LEFT_SHIFT ESC             &kp A           &kp S   &kp D         &kp F        &kp G            &kp LEFT_ARROW   &kp H                 &kp J      &kp K       &kp L    &kp SEMI            &mt RIGHT_SHIFT APOS
+&mt LEFT_CONTROL LEFT_BRACKET  &mt LEFT_ALT Z  &kp X   &kp C         &kp V        &kp B            &kp RIGHT_ARROW  &kp N                 &kp M      &kp COMMA   &kp DOT  &mt RIGHT_ALT FSLH  &mt RIGHT_CONTROL RIGHT_BRACKET
+&kp C_MUTE                     &trans          &trans  &kp LEFT_GUI  &lt 3 SPACE  &kp BACKSPACE    &kp ENTER        &mt LEFT_CONTROL TAB  &lt 4 RET  &kp DELETE  &to 5    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -57,11 +57,11 @@
         dvorak {
             display-name = "DVORAK";
             bindings = <
-&kp LS(NON_US_BACKSLASH)  &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp LS(LEFT_BRACKET)  &kp LS(N9)  &kp LS(N7)    &kp UP_ARROW     &kp EQUAL  &kp LS(N0)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp LS(N8)       &kp LS(NUMBER_1)
-&kp LS(NUMBER_4)          &kp SEMICOLON  &kp COMMA         &kp PERIOD            &kp P       &kp Y         &kp DOWN_ARROW   &kp F      &kp G       &kp C                  &kp R              &kp L            &kp NON_US_BACKSLASH
-&lt 2 ESC                 &kp A          &kp O             &kp E                 &kp U       &kp I         &kp LEFT_ARROW   &kp D      &kp H       &kp T                  &kp N              &kp S            &lt 2 MINUS
-&kp SLASH                 &kp SQT        &kp Q             &kp J                 &kp K       &kp X         &kp RIGHT_ARROW  &kp B      &kp M       &kp W                  &kp V              &mt RIGHT_ALT Z  &mt RIGHT_CONTROL LS(NUMBER_2)
-&kp C_MUTE                &trans         &trans            &trans                &trans      &trans        &kp ENTER        &trans     &trans      &trans                 &trans             &trans
+&kp LS(NON_US_BACKSLASH)  &kp LS(EQUAL)     &kp LEFT_BRACKET  &kp LS(LEFT_BRACKET)  &kp LS(N9)  &kp LS(N7)    &kp UP_ARROW     &kp EQUAL  &kp LS(N0)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp LS(N8)       &kp LS(NUMBER_1)
+&kp LS(NUMBER_4)          &kp SEMICOLON     &kp COMMA         &kp PERIOD            &kp P       &kp Y         &kp DOWN_ARROW   &kp F      &kp G       &kp C                  &kp R              &kp L            &kp NON_US_BACKSLASH
+&lt 2 ESC                 &kp A             &kp O             &kp E                 &kp U       &kp I         &kp LEFT_ARROW   &kp D      &kp H       &kp T                  &kp N              &kp S            &lt 2 MINUS
+&mt LEFT_CONTROL SLASH    &mt LEFT_ALT SQT  &kp Q             &kp J                 &kp K       &kp X         &kp RIGHT_ARROW  &kp B      &kp M       &kp W                  &kp V              &mt RIGHT_ALT Z  &mt RIGHT_CONTROL LS(NUMBER_2)
+&kp C_MUTE                &trans            &trans            &trans                &trans      &trans        &kp ENTER        &trans     &trans      &trans                 &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -70,11 +70,11 @@
         dvorak2 {
             display-name = "DVORAK";
             bindings = <
-&kp GRAVE      &kp NUMBER_1       &kp NUMBER_2   &kp N3          &kp NUMBER_4  &kp N5       &kp UP_ARROW     &kp NUMBER_6  &kp N7     &kp N8     &kp N9     &kp N0               &kp LS(N5)
-&kp LS(GRAVE)  &kp LS(SEMICOLON)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(P)     &kp LS(Y)    &kp DOWN_ARROW   &kp LS(F)     &kp LS(G)  &kp LS(C)  &kp LS(R)  &kp LS(L)            &kp LS(NUMBER_3)
-&trans         &kp LS(A)          &kp LS(O)      &kp LS(E)       &kp LS(U)     &kp LS(I)    &kp LEFT_ARROW   &kp LS(D)     &kp LS(H)  &kp LS(T)  &kp LS(N)  &kp LS(S)            &kp LS(MINUS)
-&kp LS(SLASH)  &kp LS(SQT)        &kp LS(Q)      &kp LS(J)       &kp LS(K)     &kp LS(X)    &kp RIGHT_ARROW  &kp LS(B)     &kp LS(M)  &kp LS(W)  &kp LS(V)  &mt RIGHT_ALT LS(Z)  &mt RIGHT_CONTROL LS(NUMBER_6)
-&kp C_MUTE     &trans             &trans         &trans          &trans        &trans       &kp ENTER        &trans        &trans     &trans     &trans     &trans
+&kp GRAVE                       &kp NUMBER_1               &kp NUMBER_2   &kp N3          &kp NUMBER_4  &kp N5       &kp UP_ARROW     &kp NUMBER_6  &kp N7     &kp N8     &kp N9     &kp N0               &kp LS(N5)
+&kp LS(GRAVE)                   &kp LS(SEMICOLON)          &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(P)     &kp LS(Y)    &kp DOWN_ARROW   &kp LS(F)     &kp LS(G)  &kp LS(C)  &kp LS(R)  &kp LS(L)            &kp LS(NUMBER_3)
+&trans                          &kp LS(A)                  &kp LS(O)      &kp LS(E)       &kp LS(U)     &kp LS(I)    &kp LEFT_ARROW   &kp LS(D)     &kp LS(H)  &kp LS(T)  &kp LS(N)  &kp LS(S)            &kp LS(MINUS)
+&mt LS(LEFT_CONTROL) LS(SLASH)  &mt LS(LEFT_ALT) LS(APOS)  &kp LS(Q)      &kp LS(J)       &kp LS(K)     &kp LS(X)    &kp RIGHT_ARROW  &kp LS(B)     &kp LS(M)  &kp LS(W)  &kp LS(V)  &mt RIGHT_ALT LS(Z)  &mt RIGHT_CONTROL LS(NUMBER_6)
+&kp C_MUTE                      &trans                     &trans         &trans          &trans        &trans       &kp ENTER        &trans        &trans     &trans     &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
