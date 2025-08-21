@@ -146,9 +146,9 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - END
-  - $$mdi:arrow-up-bold$$
   - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
   - PG UP
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - KP DIVIDE
