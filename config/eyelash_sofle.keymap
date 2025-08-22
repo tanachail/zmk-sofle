@@ -43,11 +43,11 @@
 
         base {
             bindings = <
-&kp EQUAL                      &kp N1            &kp N2        &kp N3        &kp N4       &kp N5           &kp UP_ARROW     &kp N6                &kp N7     &kp N8      &kp N9   &kp N0              &kp MINUS
-&kp GRAVE                      &kp Q             &kp W         &kp E         &kp R        &kp T            &kp DOWN_ARROW   &kp Y                 &kp U      &kp I       &kp O    &kp P               &kp BACKSLASH
-&mt LEFT_SHIFT ESC             &kp A             &kp S         &kp D         &kp F        &kp G            &kp LEFT_ARROW   &kp H                 &kp J      &kp K       &kp L    &kp SEMI            &mt RIGHT_SHIFT APOS
-&mt LEFT_CONTROL LEFT_BRACKET  &kp Z             &kp X         &kp C         &kp V        &kp B            &kp RIGHT_ARROW  &kp N                 &kp M      &kp COMMA   &kp DOT  &mt RIGHT_ALT FSLH  &mt RIGHT_CONTROL RIGHT_BRACKET
-&kp C_MUTE                     &kp LS(LEFT_ALT)  &kp LEFT_GUI  &kp LEFT_ALT  &lt 3 SPACE  &kp BACKSPACE    &kp ENTER        &mt LEFT_CONTROL TAB  &lt 4 RET  &kp DELETE  &to 5    &trans
+&kp EQUAL                      &kp N1  &kp N2        &kp N3        &kp N4       &kp N5           &kp UP_ARROW     &kp N6                &kp N7     &kp N8      &kp N9   &kp N0              &kp MINUS
+&kp GRAVE                      &kp Q   &kp W         &kp E         &kp R        &kp T            &kp DOWN_ARROW   &kp Y                 &kp U      &kp I       &kp O    &kp P               &kp BACKSLASH
+&mt LEFT_SHIFT ESC             &kp A   &kp S         &kp D         &kp F        &kp G            &kp LEFT_ARROW   &kp H                 &kp J      &kp K       &kp L    &kp SEMI            &mt RIGHT_SHIFT APOS
+&mt LEFT_CONTROL LEFT_BRACKET  &kp Z   &kp X         &kp C         &kp V        &kp B            &kp RIGHT_ARROW  &kp N                 &kp M      &kp COMMA   &kp DOT  &mt RIGHT_ALT FSLH  &mt RIGHT_CONTROL RIGHT_BRACKET
+&kp C_MUTE                     &trans  &kp LEFT_GUI  &kp LEFT_ALT  &lt 3 SPACE  &kp BACKSPACE    &kp ENTER        &mt LEFT_CONTROL TAB  &lt 4 RET  &kp DELETE  &to 5    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -83,11 +83,11 @@
         layer2 {
             display-name = "NAV&Fn";
             bindings = <
-&kp KP_NUMLOCK  &kp F1  &kp F2    &kp F3          &kp F4     &kp F5           &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10       &kp F11
-&trans          &trans  &kp HOME  &kp UP_ARROW    &kp END    &kp PG_UP        &mmv MOVE_DOWN   &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp F12
-&trans          &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans
-&trans          &trans  &trans    &trans          &trans     &trans           &mmv MOVE_RIGHT  &kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &trans
-&kp C_MUTE      &trans  &trans    &trans          &trans     &trans           &mkp LCLK        &trans           &kp KP_NUMBER_0  &trans           &trans           &trans
+&kp KP_NUMLOCK  &kp F1            &kp F2    &kp F3          &kp F4     &kp F5           &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10       &kp F11
+&trans          &trans            &kp HOME  &kp UP_ARROW    &kp END    &kp PG_UP        &mmv MOVE_DOWN   &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp F12
+&trans          &kp LS(LEFT_ALT)  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans
+&trans          &trans            &trans    &trans          &trans     &trans           &mmv MOVE_RIGHT  &kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &trans
+&kp C_MUTE      &trans            &trans    &trans          &trans     &trans           &mkp LCLK        &trans           &kp KP_NUMBER_0  &trans           &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
