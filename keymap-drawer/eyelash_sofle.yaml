@@ -54,7 +54,7 @@ layers:
   - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
   - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+$$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
