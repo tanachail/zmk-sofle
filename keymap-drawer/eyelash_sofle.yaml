@@ -177,11 +177,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - KP DOT
+  - {t: '=', s: +}
   - KP 1
   - KP 2
   - KP 3
-  - {t: '=', s: +}
+  - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
