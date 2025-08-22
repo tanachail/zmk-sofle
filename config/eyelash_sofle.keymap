@@ -86,7 +86,7 @@
 &kp KP_NUMLOCK  &kp F1            &kp F2    &kp F3          &kp F4     &kp F5           &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10       &kp F11
 &trans          &trans            &kp HOME  &kp UP_ARROW    &kp END    &kp PG_UP        &mmv MOVE_DOWN   &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp F12
 &trans          &kp LS(LEFT_ALT)  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans
-&trans          &trans            &trans    &trans          &trans     &trans           &mmv MOVE_RIGHT  &kp KP_DOT       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &trans
+&trans          &trans            &trans    &trans          &trans     &trans           &mmv MOVE_RIGHT  &kp EQUAL        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &trans
 &kp C_MUTE      &trans            &trans    &trans          &trans     &trans           &mkp LCLK        &trans           &kp KP_NUMBER_0  &trans           &trans           &trans
             >;
 
