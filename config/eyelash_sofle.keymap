@@ -26,10 +26,7 @@
     trigger-period-ms = <16>;
 };
 
-&mt {
-    tapping-term-ms = <50>;
-    flavor = "tap-preferred";
-};
+&mt { flavor = "tap-preferred"; };
 
 / {
     scroll_encoder: scroll_encoder {
