@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  QWERTY:
-  - {t: '=', s: +}
+  BASE:
+  - {t: '=', h: '$$mdi:apple-keyboard-command$$', s: +}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '-', s: _}
+  - {t: '-', h: '$$mdi:backspace-reverse-outline$$', s: _}
   - {t: '`', s: '~'}
   - Q
   - W
@@ -41,7 +41,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
   - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
-  - Z
+  - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
   - X
   - C
   - V
@@ -56,17 +56,17 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: CON}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   DVORAK:
-  - {t: '`', s: '~'}
+  - {t: '`', h: 'Sft+$$mdi:apple-keyboard-command$$', s: '~'}
   - '1'
   - '2'
   - {t: '3', s: '#'}
@@ -78,7 +78,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: Sft+5, s: Sft+%}
+  - {t: Sft+5, h: 'Sft+$$mdi:backspace-reverse-outline$$', s: Sft+%}
   - {t: Sft+`, s: Sft+~}
   - {t: Sft+;, s: 'Sft+:'}
   - {t: 'Sft+,', s: Sft+<}
