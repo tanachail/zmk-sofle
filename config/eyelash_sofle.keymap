@@ -26,6 +26,8 @@
     trigger-period-ms = <16>;
 };
 
+&mt { flavor = "tap-preferred"; };
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -99,11 +101,11 @@
 
         base {
             bindings = <
-&kp EQUAL         &kp N1  &kp N2           &kp N3               &kp N4             &kp N5           &kp UP_ARROW     &kp N6   &kp N7              &kp N8                &kp N9           &kp N0     &kp MINUS
-&kp GRAVE         &kp Q   &kp W            &kp E                &kp R              &kp T            &kp DOWN_ARROW   &kp Y    &kp U               &kp I                 &kp O            &kp P      &kp BACKSLASH
-&kp ESCAPE        &kp A   &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G            &kp LEFT_ARROW   &kp H    &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr LEFT_ALT L  &kp SEMI   &kp APOS
-&kp LEFT_BRACKET  &kp Z   &kp X            &kp C                &kp V              &kp B            &kp RIGHT_ARROW  &kp N    &kp M               &kp COMMA             &kp DOT          &kp SLASH  &kp RIGHT_BRACKET
-&kp C_MUTE        &trans  &trans           &kp LEFT_GUI         &lt 3 SPACE        &kp BACKSPACE    &kp ENTER        &kp TAB  &lt 4 RET           &kp DELETE            &trans           &trans
+&kp EQUAL                      &kp N1  &kp N2          &kp N3              &kp N4            &kp N5           &kp UP_ARROW     &kp N6   &kp N7             &kp N8               &kp N9          &kp N0     &kp MINUS
+&kp GRAVE                      &kp Q   &kp W           &kp E               &kp R             &kp T            &kp DOWN_ARROW   &kp Y    &kp U              &kp I                &kp O           &kp P      &kp BACKSLASH
+&kp ESCAPE                     &kp A   &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G            &kp LEFT_ARROW   &kp H    &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt LEFT_ALT L  &kp SEMI   &kp APOS
+&mt LEFT_CONTROL LEFT_BRACKET  &kp Z   &kp X           &kp C               &kp V             &kp B            &kp RIGHT_ARROW  &kp N    &kp M              &kp COMMA            &kp DOT         &kp SLASH  &kp RIGHT_BRACKET
+&kp C_MUTE                     &trans  &trans          &kp LEFT_GUI        &lt 3 SPACE       &kp BACKSPACE    &kp ENTER        &kp TAB  &lt 4 RET          &kp DELETE           &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
