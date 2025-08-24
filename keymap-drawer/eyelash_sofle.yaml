@@ -40,7 +40,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - {t: '[', s: '{'}
+  - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
   - Z
   - X
   - C
