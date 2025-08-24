@@ -117,7 +117,7 @@
             bindings = <
 &kp LS(BACKSLASH)  &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp LS(LEFT_BRACKET)  &kp LS(N9)  &kp LS(N7)    &kp UP_ARROW     &kp EQUAL  &kp LS(N0)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp LS(N8)  &kp LS(NUMBER_1)
 &kp LS(NUMBER_4)   &kp SEMICOLON  &kp COMMA         &kp PERIOD            &kp P       &kp Y         &kp DOWN_ARROW   &kp F      &kp G       &kp C                  &kp R              &kp L       &kp NON_US_BACKSLASH
-&kp ESCAPE         &kp A          &hml O LEFT_ALT   &hml LEFT_CONTROL E   &ltl 2 U    &kp I         &kp LEFT_ARROW   &kp D      &ltr 2 H    &hmr RIGHT_CONTROL T   &hmr RIGHT_ALT N   &kp S       &kp MINUS
+&kp ESCAPE         &kp A          &mt O LEFT_ALT    &mt LEFT_CONTROL E    &lt 2 U     &kp I         &kp LEFT_ARROW   &kp D      &lt 2 H     &mt RIGHT_CONTROL T    &mt RIGHT_ALT N    &kp S       &kp MINUS
 &kp SLASH          &kp SQT        &kp Q             &kp J                 &kp K       &kp X         &kp RIGHT_ARROW  &kp B      &kp M       &kp W                  &kp V              &kp Z       &kp LS(NUMBER_2)
 &kp C_MUTE         &trans         &trans            &trans                &trans      &trans        &kp ENTER        &trans     &trans      &trans                 &trans             &trans
             >;
@@ -128,11 +128,11 @@
         dvorak2 {
             display-name = "DVORAK";
             bindings = <
-&kp GRAVE      &kp NUMBER_1       &kp NUMBER_2             &kp N3                       &kp NUMBER_4  &kp N5       &kp UP_ARROW     &kp NUMBER_6  &kp N7     &kp N8                        &kp N9                    &kp N0     &kp LS(N5)
-&kp LS(GRAVE)  &kp LS(SEMICOLON)  &kp LS(COMMA)            &kp LS(PERIOD)               &kp LS(P)     &kp LS(Y)    &kp DOWN_ARROW   &kp LS(F)     &kp LS(G)  &kp LS(C)                     &kp LS(R)                 &kp LS(L)  &kp LS(NUMBER_3)
-&trans         &kp LS(A)          &hml LS(LEFT_ALT) LS(O)  &hml LS(LEFT_CONTROL) LS(E)  &kp LS(U)     &kp LS(I)    &kp LEFT_ARROW   &kp LS(D)     &kp LS(H)  &hmr LS(RIGHT_CONTROL) LS(T)  &hmr LS(RIGHT_ALT) LS(N)  &kp LS(S)  &kp LS(MINUS)
-&kp LS(FSLH)   &kp LS(APOS)       &kp LS(Q)                &kp LS(J)                    &kp LS(K)     &kp LS(X)    &kp RIGHT_ARROW  &kp LS(B)     &kp LS(M)  &kp LS(W)                     &kp LS(V)                 &kp LS(Z)  &kp LS(NUMBER_6)
-&kp C_MUTE     &trans             &trans                   &trans                       &trans        &trans       &kp ENTER        &trans        &trans     &trans                        &trans                    &trans
+&kp GRAVE      &kp NUMBER_1       &kp NUMBER_2            &kp N3                      &kp NUMBER_4  &kp N5       &kp UP_ARROW     &kp NUMBER_6  &kp N7     &kp N8                       &kp N9                   &kp N0     &kp LS(N5)
+&kp LS(GRAVE)  &kp LS(SEMICOLON)  &kp LS(COMMA)           &kp LS(PERIOD)              &kp LS(P)     &kp LS(Y)    &kp DOWN_ARROW   &kp LS(F)     &kp LS(G)  &kp LS(C)                    &kp LS(R)                &kp LS(L)  &kp LS(NUMBER_3)
+&trans         &kp LS(A)          &mt LS(LEFT_ALT) LS(O)  &mt LS(LEFT_CONTROL) LS(E)  &kp LS(U)     &kp LS(I)    &kp LEFT_ARROW   &kp LS(D)     &kp LS(H)  &mt LS(RIGHT_CONTROL) LS(T)  &mt LS(RIGHT_ALT) LS(N)  &kp LS(S)  &kp LS(MINUS)
+&kp LS(FSLH)   &kp LS(APOS)       &kp LS(Q)               &kp LS(J)                   &kp LS(K)     &kp LS(X)    &kp RIGHT_ARROW  &kp LS(B)     &kp LS(M)  &kp LS(W)                    &kp LS(V)                &kp LS(Z)  &kp LS(NUMBER_6)
+&kp C_MUTE     &trans             &trans                  &trans                      &trans        &trans       &kp ENTER        &trans        &trans     &trans                       &trans                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
