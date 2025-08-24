@@ -33,8 +33,6 @@
 
 &lt { tapping-term-ms = <175>; };
 
-&soft_off { hold-time-ms = <2000>; };
-
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -44,14 +42,7 @@
         tap-ms = <100>;
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <54 53>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     hml: hml {
         compatible = "zmk,behavior-hold-tap";
