@@ -41,14 +41,8 @@
 
         tap-ms = <100>;
     };
-    combos {
-        compatible = "zmk,combos";
 
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <14 28 40>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     hml: hml {
         compatible = "zmk,behavior-hold-tap";
