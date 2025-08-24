@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-esc$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -39,9 +39,9 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, s: ':'}
-  - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
-  - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
-  - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '''', s: '"'}
+  - {t: '[', s: '{'}
+  - Z
   - X
   - C
   - V
@@ -51,8 +51,8 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
-  - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
+  - {t: /, s: '?'}
+  - {t: ']', s: '}'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -92,21 +92,21 @@ layers:
   - Sft+R
   - Sft+L
   - Sft+3
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+A
-  - Sft+O
-  - Sft+E
-  - Sft+U
+  - {t: Sft+O, h: 'Sft+$$mdi:apple-keyboard-option$$'}
+  - {t: Sft+E, h: 'Sft+$$mdi:apple-keyboard-control$$'}
+  - {t: Sft+U, type: held}
   - Sft+I
   - $$mdi:arrow-left-bold$$
   - Sft+D
-  - Sft+H
-  - Sft+T
-  - Sft+N
+  - {t: Sft+H, type: held alternate}
+  - {t: Sft+T, h: 'Sft+$$mdi:apple-keyboard-control$$'}
+  - {t: Sft+N, h: 'Sft+$$mdi:apple-keyboard-option$$'}
   - Sft+S
-  - {t: Sft+-, s: Sft+_, type: held alternate}
-  - {t: Sft+/, h: 'Sft+$$mdi:apple-keyboard-control$$', s: 'Sft+?'}
-  - {t: Sft+', h: 'Sft+$$mdi:apple-keyboard-option$$', s: Sft+"}
+  - {t: Sft+-, s: Sft+_}
+  - {t: Sft+/, s: 'Sft+?'}
+  - {t: Sft+', s: Sft+"}
   - Sft+Q
   - Sft+J
   - Sft+K
@@ -116,12 +116,12 @@ layers:
   - Sft+M
   - Sft+W
   - Sft+V
-  - {t: Sft+Z, h: 'Sft+$$mdi:apple-keyboard-option$$'}
-  - {t: Sft+6, h: 'Sft+$$mdi:apple-keyboard-control$$'}
+  - Sft+Z
+  - Sft+6
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+$$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
