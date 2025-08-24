@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
-  - $$mdi:keyboard-esc$$
+  BASE:
+  - {t: '=', s: +}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -13,8 +13,8 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - {t: '-', s: _}
+  - {t: '`', s: '~'}
   - Q
   - W
   - E
@@ -27,20 +27,20 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
-  - A
-  - S
-  - D
-  - F
+  - $$mdi:keyboard-esc$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: LEFT WIN, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
   - Z
   - X
   - C
@@ -52,21 +52,86 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: ']', s: '}'}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - layer1
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '2'
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-return$$', h: CON}
   - $$mdi:backspace-reverse-outline$$
-  layer1:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  DVORAK:
   - {t: '`', s: '~'}
+  - '1'
+  - '2'
+  - {t: '3', s: '#'}
+  - '4'
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - '6'
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: Sft+5, s: Sft+%}
+  - {t: Sft+`, s: Sft+~}
+  - {t: Sft+;, s: 'Sft+:'}
+  - {t: 'Sft+,', s: Sft+<}
+  - Sft+.
+  - Sft+P
+  - Sft+Y
+  - $$mdi:arrow-down-bold$$
+  - Sft+F
+  - Sft+G
+  - Sft+C
+  - Sft+R
+  - Sft+L
+  - Sft+3
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Sft+A, h: 'Sft+$$mdi:apple-keyboard-command$$'}
+  - {t: Sft+O, h: 'Sft+$$mdi:apple-keyboard-option$$'}
+  - {t: Sft+E, h: 'Sft+$$mdi:apple-keyboard-control$$'}
+  - {t: Sft+U, type: held}
+  - Sft+I
+  - $$mdi:arrow-left-bold$$
+  - Sft+D
+  - {t: Sft+H, type: held alternate}
+  - {t: Sft+T, h: 'Sft+$$mdi:apple-keyboard-control$$'}
+  - {t: Sft+N, h: 'Sft+$$mdi:apple-keyboard-option$$'}
+  - {t: Sft+S, h: 'Sft+$$mdi:apple-keyboard-command$$'}
+  - {t: Sft+-, s: Sft+_}
+  - {t: Sft+/, s: 'Sft+?'}
+  - {t: Sft+', s: Sft+"}
+  - Sft+Q
+  - Sft+J
+  - Sft+K
+  - Sft+X
+  - $$mdi:arrow-right-bold$$
+  - Sft+B
+  - Sft+M
+  - Sft+W
+  - Sft+V
+  - Sft+Z
+  - Sft+6
+  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  NAV&Fn:
+  - KP NUMLOCK
   - F1
   - F2
   - F3
@@ -78,45 +143,45 @@ layers:
   - F8
   - F9
   - F10
+  - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - PG UP
-  - END
-  - $$mdi:arrow-up-bold$$
   - HOME
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - $$mdi:arrow-up-bold$$
+  - END
+  - PG UP
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - KP DIVIDE
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
+  - Sft+$$mdi:apple-keyboard-option$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - PgDn
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - KP MULTIPLY
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
-  - RGB EFF
-  - RGB EFR
-  - RGB SPI
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
-  - RGB BRD
-  - Ins
-  - F11
-  - F12
+  - {t: '=', s: +}
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -127,36 +192,36 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  '2':
-  - '~'
+  CON:
+  - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SPD
+  - RGB SPI
   - {t: '$$mdi:transfer$$', type: trans}
-  - F11
-  - F12
-  - _
-  - +
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
@@ -165,23 +230,21 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
+  - RGB BRD
+  - RGB BRI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
-  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - '&soft_off'
-  - $$mdi:progress-download$$
+  - RGB TOG
+  - RGB EFR
+  - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -189,14 +252,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: DVORAK, h: toggle}
+  - {t: R_ARW, h: toggle}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '3':
   - {t: '$$mdi:transfer$$', type: trans}
+  R_ARW:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -234,6 +298,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -245,6 +310,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - RETURN
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -256,10 +324,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-combos:
-- p: [14, 28, 40]
-  k: '&soft_off'
+  - $$mdi:arrow-left-bold$$
