@@ -136,7 +136,7 @@
             bindings = <
 &kp LS(BACKSLASH)         &kp LS(EQUAL)    &kp LEFT_BRACKET  &kp LS(LEFT_BRACKET)  &kp LS(N9)  &kp LS(N7)    &kp UP_ARROW     &kp EQUAL  &kp LS(N0)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp LS(N8)       &kp LS(NUMBER_1)
 &kp LS(NUMBER_4)          &kp SEMICOLON    &kp COMMA         &kp PERIOD            &kp P       &kp Y         &kp DOWN_ARROW   &kp F      &kp G       &kp C                  &kp R              &kp L            &kp NON_US_BACKSLASH
-&kp ESCAPE                &hml LEFT_GUI A  &hml O LEFT_ALT   &hml LEFT_CONTROL E   &ltl 2 U    &kp I         &kp LEFT_ARROW   &kp D      &ltr 2 H    &hmr LEFT_CONTROL T    &hmr LEFT_ALT N    &hmr LEFT_GUI S  &kp MINUS
+&kp ESCAPE                &hml LEFT_GUI A  &hml LEFT_ALT O   &hml LEFT_CONTROL E   &ltl 2 U    &kp I         &kp LEFT_ARROW   &kp D      &ltr 2 H    &hmr LEFT_CONTROL T    &hmr LEFT_ALT N    &hmr LEFT_GUI S  &kp MINUS
 &hml RIGHT_CONTROL SLASH  &kp SQT          &kp Q             &kp J                 &kp K       &kp X         &kp RIGHT_ARROW  &kp B      &kp M       &kp W                  &kp V              &kp Z            &kp LS(NUMBER_2)
 &kp C_MUTE                &trans           &trans            &trans                &trans      &trans        &kp ENTER        &trans     &trans      &trans                 &trans             &trans
             >;
