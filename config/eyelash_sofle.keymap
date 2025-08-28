@@ -122,9 +122,9 @@
             bindings = <
 &kp EQUAL                        &kp N1           &kp N2           &kp N3               &kp N4             &kp N5           &kp UP_ARROW     &kp N6   &kp N7              &kp N8               &kp N9           &kp N0              &kp MINUS
 &kp GRAVE                        &kp Q            &kp W            &kp E                &kp R              &kp T            &kp DOWN_ARROW   &kp Y    &kp U               &kp I                &kp O            &kp P               &kp BACKSLASH
-&kp ESCAPE                       &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G            &kp LEFT_ARROW   &kp H    &hmr RIGHT_SHIFT J  &hmr LEFT_CONTROL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMI  &kp APOS
+&mt LEFT_SHIFT ESCAPE            &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G            &kp LEFT_ARROW   &kp H    &hmr RIGHT_SHIFT J  &hmr LEFT_CONTROL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMI  &kp APOS
 &hml RIGHT_CONTROL LEFT_BRACKET  &kp Z            &kp X            &kp C                &kp V              &kp B            &kp RIGHT_ARROW  &kp N    &kp M               &kp COMMA            &kp DOT          &kp SLASH           &kp RIGHT_BRACKET
-&kp C_MUTE                       &trans           &trans           &kp LEFT_GUI         &ltthumb 3 SPACE   &kp BACKSPACE    &kp ENTER        &kp TAB  &ltthumb 4 RET      &kp DELETE           &trans           &trans
+&kp C_MUTE                       &trans           &trans           &kp LEFT_GUI         &lt 3 SPACE        &kp BACKSPACE    &kp ENTER        &kp TAB  &lt 4 RET           &kp DELETE           &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -136,7 +136,7 @@
             bindings = <
 &kp LS(BACKSLASH)         &kp LS(EQUAL)    &kp LEFT_BRACKET  &kp LS(LEFT_BRACKET)  &kp LS(N9)  &kp LS(N7)    &kp UP_ARROW     &kp EQUAL  &kp LS(N0)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp LS(N8)       &kp LS(NUMBER_1)
 &kp LS(NUMBER_4)          &kp SEMICOLON    &kp COMMA         &kp PERIOD            &kp P       &kp Y         &kp DOWN_ARROW   &kp F      &kp G       &kp C                  &kp R              &kp L            &kp NON_US_BACKSLASH
-&kp ESCAPE                &hml LEFT_GUI A  &hml LEFT_ALT O   &hml LEFT_CONTROL E   &ltl 2 U    &kp I         &kp LEFT_ARROW   &kp D      &ltr 2 H    &hmr LEFT_CONTROL T    &hmr LEFT_ALT N    &hmr LEFT_GUI S  &kp MINUS
+&mt LEFT_SHIFT ESCAPE     &hml LEFT_GUI A  &hml LEFT_ALT O   &hml LEFT_CONTROL E   &ltl 2 U    &kp I         &kp LEFT_ARROW   &kp D      &ltr 2 H    &hmr LEFT_CONTROL T    &hmr LEFT_ALT N    &hmr LEFT_GUI S  &kp MINUS
 &hml RIGHT_CONTROL SLASH  &kp SQT          &kp Q             &kp J                 &kp K       &kp X         &kp RIGHT_ARROW  &kp B      &kp M       &kp W                  &kp V              &kp Z            &kp LS(NUMBER_2)
 &kp C_MUTE                &trans           &trans            &trans                &trans      &trans        &kp ENTER        &trans     &trans      &trans                 &trans             &trans
             >;
@@ -160,11 +160,11 @@
         layer2 {
             display-name = "NAV&Fn";
             bindings = <
-&kp KP_NUMLOCK  &kp F1            &kp F2    &kp F3          &kp F4     &kp F5           &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10       &kp F11
-&trans          &trans            &kp HOME  &kp UP_ARROW    &kp END    &kp PG_UP        &mmv MOVE_DOWN   &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp F12
-&trans          &kp LS(LEFT_ALT)  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans
-&trans          &trans            &trans    &trans          &trans     &trans           &mmv MOVE_RIGHT  &kp EQUAL        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &trans
-&kp C_MUTE      &trans            &trans    &trans          &trans     &trans           &mkp LCLK        &trans           &trans           &kp KP_NUMBER_0  &trans           &trans
+&kp KP_NUMLOCK  &kp F1  &kp F2    &kp F3          &kp F4     &kp F5           &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10       &kp F11
+&trans          &trans  &kp HOME  &kp UP_ARROW    &kp END    &kp PG_UP        &mmv MOVE_DOWN   &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp F12
+&trans          &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans
+&trans          &trans  &trans    &trans          &trans     &trans           &mmv MOVE_RIGHT  &kp EQUAL        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &trans
+&kp C_MUTE      &trans  &trans    &trans          &trans     &trans           &mkp LCLK        &trans           &trans           &kp KP_NUMBER_0  &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
