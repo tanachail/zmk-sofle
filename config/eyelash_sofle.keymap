@@ -112,16 +112,6 @@
         flavor = "balanced";
     };
 
-    toggle_kp: toggle_kp {
-        compatible = "zmk,behavior-hold-tap";
-        label = "TOGGLE_KP";
-        bindings = <&tog>, <&kp>;
-
-        #binding-cells = <2>;
-        tapping-term-ms = <175>;
-        flavor = "tap-preferred";
-    };
-
     behaviors {
     };
 
@@ -134,7 +124,7 @@
 &kp GRAVE                        &kp Q            &kp W            &kp E                &kp R              &kp T            &kp DOWN_ARROW   &kp Y    &kp U               &kp I                &kp O            &kp P               &kp BACKSLASH
 &mt CAPS ESCAPE                  &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G            &kp LEFT_ARROW   &kp H    &hmr RIGHT_SHIFT J  &hmr LEFT_CONTROL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMI  &kp APOS
 &hml RIGHT_CONTROL LEFT_BRACKET  &kp Z            &kp X            &kp C                &kp V              &kp B            &kp RIGHT_ARROW  &kp N    &kp M               &kp COMMA            &kp DOT          &kp SLASH           &kp RIGHT_BRACKET
-&kp C_MUTE                       &trans           &trans           &kp LEFT_GUI         &lt 3 SPACE        &kp BACKSPACE    &kp ENTER        &kp TAB  &lt 4 RET           &kp DELETE           &trans           &trans
+&kp C_MUTE                       &trans           &trans           &kp LEFT_GUI         &ltthumb 3 SPACE   &kp BACKSPACE    &kp ENTER        &kp TAB  &ltthumb 4 RET      &kp DELETE           &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -146,7 +136,7 @@
             bindings = <
 &kp LS(BACKSLASH)         &kp LS(EQUAL)    &kp LEFT_BRACKET  &kp LS(LEFT_BRACKET)  &kp LS(N9)  &kp LS(N7)    &kp UP_ARROW     &kp EQUAL  &kp LS(N0)  &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp LS(N8)       &kp LS(NUMBER_1)
 &kp LS(NUMBER_4)          &kp SEMICOLON    &kp COMMA         &kp PERIOD            &kp P       &kp Y         &kp DOWN_ARROW   &kp F      &kp G       &kp C                  &kp R              &kp L            &kp NON_US_BACKSLASH
-&toggle_kp 2 ESCAPE       &hml LEFT_GUI A  &hml LEFT_ALT O   &hml LEFT_CONTROL E   &ltl 2 U    &kp I         &kp LEFT_ARROW   &kp D      &ltr 2 H    &hmr LEFT_CONTROL T    &hmr LEFT_ALT N    &hmr LEFT_GUI S  &kp MINUS
+&kp ESCAPE                &hml LEFT_GUI A  &hml LEFT_ALT O   &hml LEFT_CONTROL E   &ltl 2 U    &kp I         &kp LEFT_ARROW   &kp D      &ltr 2 H    &hmr LEFT_CONTROL T    &hmr LEFT_ALT N    &hmr LEFT_GUI S  &kp MINUS
 &hml RIGHT_CONTROL SLASH  &kp SQT          &kp Q             &kp J                 &kp K       &kp X         &kp RIGHT_ARROW  &kp B      &kp M       &kp W                  &kp V              &kp Z            &kp LS(NUMBER_2)
 &kp C_MUTE                &trans           &trans            &trans                &trans      &trans        &kp ENTER        &trans     &trans      &trans                 &trans             &trans
             >;
