@@ -187,7 +187,7 @@
             label = "Game";
             bindings = <
 &kp ESCAPE        &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans          &to 0
-&trans            &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans          &trans
+&kp TAB           &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans          &trans
 &kp LEFT_SHIFT    &kp A   &kp S   &kp D      &kp F      &trans    &trans  &trans  &kp J   &kp K   &kp L      &kp UP_ARROW    &kp RIGHT_SHIFT
 &kp LEFT_CONTROL  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &kp ENTER  &kp DOWN        &kp RIGHT
 &trans            &trans  &trans  &kp ENTER  &kp SPACE  &trans    &trans  &trans  &kp N   &trans  &trans     &kp LEFT_ARROW
