@@ -177,7 +177,7 @@
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &trans           &rgb_ug RGB_SPD    &rgb_ug RGB_SPI  &trans  &trans  &trans
 &trans          &out OUT_USB  &out OUT_BLE  &trans        &trans        &trans          &mmv MOVE_LEFT   &trans           &rgb_ug RGB_BRD    &rgb_ug RGB_BRI  &trans  &trans  &trans
 &trans          &sys_reset    &trans        &bootloader   &none         &trans          &mmv MOVE_RIGHT  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR    &rgb_ug RGB_EFF  &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &tog 1        &tog 5          &mkp LCLK        &trans           &trans             &trans           &trans  &trans
+&trans          &trans        &trans        &trans        &tog 1        &to 5           &mkp LCLK        &trans           &trans             &trans           &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -186,11 +186,11 @@
         game {
             label = "Game";
             bindings = <
-&kp ESCAPE        &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans   &trans  &trans     &trans          &trans
-&trans            &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans   &trans  &trans     &trans          &trans
-&kp LEFT_SHIFT    &kp A   &kp S   &kp D      &kp F   &trans    &trans  &trans  &kp J    &kp K   &kp L      &kp UP_ARROW    &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans   &trans  &kp ENTER  &kp DOWN        &kp RIGHT
-&trans            &trans  &trans  &kp ENTER  &trans  &trans    &trans  &trans  &lt 4 N  &trans  &trans     &kp LEFT_ARROW
+&kp ESCAPE        &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans          &to 0
+&trans            &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans          &trans
+&kp LEFT_SHIFT    &kp A   &kp S   &kp D      &kp F      &trans    &trans  &trans  &kp J   &kp K   &kp L      &kp UP_ARROW    &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &kp ENTER  &kp DOWN        &kp RIGHT
+&trans            &trans  &trans  &kp ENTER  &kp SPACE  &trans    &trans  &trans  &kp N   &trans  &trans     &kp LEFT_ARROW
             >;
         };
     };
