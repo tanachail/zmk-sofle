@@ -66,68 +66,68 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   DVORAK:
-  - {t: '`', s: '~'}
-  - '1'
-  - '2'
-  - {t: '3', s: '#'}
-  - '4'
-  - {t: '5', s: '%'}
+  - {t: '|', s: '`'}
+  - {t: +, s: '1'}
+  - {t: '[', s: '2'}
+  - {t: '{', s: '3'}
+  - {t: (, s: '4'}
+  - {t: '&', s: '5'}
   - $$mdi:arrow-up-bold$$
-  - '6'
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: Sft+5, s: Sft+%}
-  - {t: Sft+`, s: Sft+~}
-  - {t: Sft+;, s: 'Sft+:'}
-  - {t: 'Sft+,', s: Sft+<}
-  - Sft+.
-  - Sft+P
-  - Sft+Y
+  - {t: '=', s: '6'}
+  - {t: ), s: '7'}
+  - {t: '}', s: '8'}
+  - {t: ']', s: '9'}
+  - {t: '*', s: '0'}
+  - {t: '!', s: '%'}
+  - {t: $, s: '~'}
+  - {t: ;, s: ':'}
+  - {t: ',', s: <}
+  - .
+  - P
+  - Y
   - $$mdi:arrow-down-bold$$
-  - Sft+F
-  - Sft+G
-  - Sft+C
-  - Sft+R
-  - Sft+L
-  - Sft+3
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+A, h: 'Sft+$$mdi:apple-keyboard-command$$'}
-  - {t: Sft+O, h: 'Sft+$$mdi:apple-keyboard-option$$'}
-  - {t: Sft+E, h: 'Sft+$$mdi:apple-keyboard-control$$'}
-  - {t: Sft+U, type: held}
-  - Sft+I
+  - F
+  - G
+  - C
+  - R
+  - L
+  - {t: \, s: '#'}
+  - $$mdi:keyboard-esc$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: U, h: '$$mdi:apple-keyboard-shift$$'}
+  - I
   - $$mdi:arrow-left-bold$$
-  - Sft+D
-  - {t: Sft+H, type: held alternate}
-  - {t: Sft+T, h: 'Sft+$$mdi:apple-keyboard-control$$'}
-  - {t: Sft+N, h: 'Sft+$$mdi:apple-keyboard-option$$'}
-  - {t: Sft+S, h: 'Sft+$$mdi:apple-keyboard-command$$'}
-  - {t: Sft+-, s: Sft+_}
-  - {t: Sft+/, h: 'Sft+$$mdi:apple-keyboard-control$$', s: 'Sft+?'}
-  - {t: Sft+', s: Sft+"}
-  - Sft+Q
-  - Sft+J
-  - Sft+K
-  - Sft+X
+  - D
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '-', s: _}
+  - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
+  - {t: '''', s: '"'}
+  - Q
+  - J
+  - K
+  - X
   - $$mdi:arrow-right-bold$$
-  - Sft+B
-  - Sft+M
-  - Sft+W
-  - Sft+V
-  - Sft+Z
-  - Sft+6
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - {t: '@', s: ^}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+$$mdi:keyboard-space$$
-  - {t: 'Sft+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-tab-reverse$$
-  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
-  - Sft+$$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV&Fn:
