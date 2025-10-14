@@ -135,7 +135,7 @@
         bindings = <&kp PLUS>, <&kp NUMBER_1>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_RSFT)>;
     };
 
     dvorak_2: dvorak_2 {
@@ -144,7 +144,7 @@
         bindings = <&kp LEFT_BRACKET>, <&kp NUMBER_2>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_RSFT)>;
     };
 
     dvorak_3: dvorak_3 {
@@ -153,7 +153,7 @@
         bindings = <&kp LBRC>, <&kp NUMBER_3>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_RSFT)>;
     };
 
     dvorak_4: dvorak_4 {
@@ -162,7 +162,7 @@
         bindings = <&kp LPAR>, <&kp NUMBER_4>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_RSFT)>;
     };
 
     dvorak_5: dvorak_5 {
@@ -171,7 +171,7 @@
         bindings = <&kp AMPS>, <&kp N5>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_RSFT)>;
     };
 
     dvorak_6: dvorak_6 {
@@ -180,7 +180,7 @@
         bindings = <&kp EQUAL>, <&kp NUMBER_6>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT)>;
     };
 
     dvorak_7: dvorak_7 {
@@ -189,7 +189,7 @@
         bindings = <&kp RPAR>, <&kp N7>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT)>;
     };
 
     dvorak_8: dvorak_8 {
@@ -198,7 +198,7 @@
         bindings = <&kp RBRC>, <&kp N8>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT)>;
     };
 
     dvorak_9: dvorak_9 {
@@ -207,7 +207,7 @@
         bindings = <&kp RIGHT_BRACKET>, <&kp N9>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT)>;
     };
 
     dvorak_0: dvorak_0 {
@@ -216,7 +216,7 @@
         bindings = <&kp STAR>, <&kp N0>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LSFT)>;
     };
 
     behaviors {
