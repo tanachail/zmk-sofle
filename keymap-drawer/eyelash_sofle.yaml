@@ -38,7 +38,7 @@ layers:
   - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: T, h: '$$mdi:apple-keyboard-control$$'}
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: RIGHT GUI}
   - {t: '-', s: _}
   - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
   - {t: '''', s: '"'}
@@ -55,7 +55,7 @@ layers:
   - {t: '@', s: ^}
   - $$mdi:volume-off$$
   - {t: BASE, h: toggle}
-  - RIGHT GUI
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -103,7 +103,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: LEFT WIN, s: ':'}
+  - {t: ;, h: RIGHT GUI, s: ':'}
   - {t: '''', s: '"'}
   - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
   - Z
