@@ -54,7 +54,7 @@ layers:
   - Z
   - {t: '@', s: ^}
   - $$mdi:volume-off$$
-  - '&change_lang'
+  - {t: BASE, h: toggle}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
@@ -65,7 +65,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  QWERTY:
+  BASE:
   - {t: '=', s: +}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -252,7 +252,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWERTY, h: toggle}
+  - '&change_lang'
   - {t: Game, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
