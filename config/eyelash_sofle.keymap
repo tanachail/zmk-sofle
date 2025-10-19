@@ -231,10 +231,11 @@
     dvorak_1_main: dvorak_1_main {
         compatible = "zmk,behavior-mod-morph";
         label = "DVORAK_1_MAIN";
-        bindings = <&dvorak_1>, <&kp LS(NUMBER_1)>;
+        bindings = <&dvorak_1>, <&kp NUMBER_1>;
 
         #binding-cells = <0>;
         mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
     };
 
     behaviors {
