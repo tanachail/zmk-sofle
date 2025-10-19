@@ -135,8 +135,8 @@
         bindings = <&kp PLUS>, <&kp NUMBER_1>;
 
         #binding-cells = <0>;
-        mods = <(MOD_RSFT|MOD_RALT|MOD_RCTL|MOD_RGUI)>;
-        keep-mods = <(MOD_RCTL|MOD_RALT|MOD_RGUI)>;
+        mods = <(MOD_RSFT|MOD_LGUI|MOD_LALT|MOD_LCTL)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
     };
 
     dvorak_2: dvorak_2 {
@@ -145,8 +145,8 @@
         bindings = <&kp LEFT_BRACKET>, <&kp NUMBER_2>;
 
         #binding-cells = <0>;
-        mods = <(MOD_RSFT|MOD_RCTL|MOD_RALT|MOD_RGUI)>;
-        keep-mods = <(MOD_RCTL|MOD_RALT|MOD_RGUI)>;
+        mods = <(MOD_RSFT|MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
     };
 
     dvorak_3: dvorak_3 {
@@ -155,8 +155,8 @@
         bindings = <&kp LBRC>, <&kp NUMBER_3>;
 
         #binding-cells = <0>;
-        mods = <(MOD_RSFT|MOD_RCTL|MOD_RALT|MOD_RGUI)>;
-        keep-mods = <(MOD_RCTL|MOD_RALT|MOD_RGUI)>;
+        mods = <(MOD_RSFT|MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
     };
 
     dvorak_4: dvorak_4 {
@@ -165,8 +165,8 @@
         bindings = <&kp LPAR>, <&kp NUMBER_4>;
 
         #binding-cells = <0>;
-        mods = <(MOD_RSFT|MOD_RCTL|MOD_RALT|MOD_RGUI)>;
-        keep-mods = <(MOD_RCTL|MOD_RALT|MOD_RGUI)>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI|MOD_RSFT)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
     };
 
     dvorak_5: dvorak_5 {
@@ -175,8 +175,8 @@
         bindings = <&kp AMPS>, <&kp N5>;
 
         #binding-cells = <0>;
-        mods = <(MOD_RSFT|MOD_RCTL|MOD_RALT|MOD_RGUI)>;
-        keep-mods = <(MOD_RCTL|MOD_RALT|MOD_RGUI)>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI|MOD_RSFT)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
     };
 
     dvorak_6: dvorak_6 {
