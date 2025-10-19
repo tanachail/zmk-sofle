@@ -1,70 +1,5 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  BASE:
-  - {t: '=', s: +}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '-', s: _}
-  - {t: '`', s: '~'}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-down-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: \, s: '|'}
-  - $$mdi:keyboard-esc$$
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
-  - $$mdi:arrow-left-bold$$
-  - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: LEFT WIN, s: ':'}
-  - {t: '''', s: '"'}
-  - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - $$mdi:arrow-right-bold$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: ']', s: '}'}
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - LEFT WIN
-  - $$mdi:apple-keyboard-caps$$
-  - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-return$$', h: CON}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   DVORAK:
   - {t: '|', s: '`'}
   - {t: +, s: '1'}
@@ -119,6 +54,71 @@ layers:
   - Z
   - {t: '@', s: ^}
   - $$mdi:volume-off$$
+  - '&change_lang'
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-return$$', h: CON}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  BASE:
+  - {t: '=', s: +}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '-', s: _}
+  - {t: '`', s: '~'}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-down-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:keyboard-esc$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - $$mdi:arrow-left-bold$$
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: LEFT WIN, s: ':'}
+  - {t: '''', s: '"'}
+  - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:arrow-right-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -183,7 +183,7 @@ layers:
   - KP 3
   - KP DOT
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -252,7 +252,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DVORAK, h: toggle}
+  - {t: BASE, h: toggle}
   - {t: Game, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -262,54 +262,54 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Game:
   - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: BASE, h: toggle}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: DVORAK, h: toggle}
   - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
   - F
+  - G
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - H
   - J
   - K
   - L
   - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - V
+  - B
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - N
+  - M
+  - {t: ',', s: <}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
