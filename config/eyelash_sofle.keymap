@@ -144,8 +144,7 @@
         bindings = <&kp LEFT_BRACKET>, <&kp NUMBER_2>;
 
         #binding-cells = <0>;
-        mods = <(MOD_RSFT|MOD_LCTL|MOD_LALT|MOD_LGUI)>;
-        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        mods = <(MOD_RSFT)>;
     };
 
     dvorak_3: dvorak_3 {
@@ -154,8 +153,7 @@
         bindings = <&kp LBRC>, <&kp NUMBER_3>;
 
         #binding-cells = <0>;
-        mods = <(MOD_RSFT|MOD_LCTL|MOD_LALT|MOD_LGUI)>;
-        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        mods = <(MOD_RSFT)>;
     };
 
     dvorak_4: dvorak_4 {
@@ -164,8 +162,7 @@
         bindings = <&kp LPAR>, <&kp NUMBER_4>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI|MOD_RSFT)>;
-        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        mods = <(MOD_RSFT)>;
     };
 
     dvorak_5: dvorak_5 {
@@ -174,8 +171,7 @@
         bindings = <&kp AMPS>, <&kp N5>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI|MOD_RSFT)>;
-        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        mods = <(MOD_RSFT)>;
     };
 
     dvorak_6: dvorak_6 {
@@ -184,8 +180,7 @@
         bindings = <&kp EQUAL>, <&kp NUMBER_6>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_LGUI|MOD_LCTL|MOD_LALT)>;
-        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        mods = <(MOD_LSFT)>;
     };
 
     dvorak_7: dvorak_7 {
@@ -194,8 +189,7 @@
         bindings = <&kp RPAR>, <&kp N7>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_LCTL|MOD_LALT|MOD_LGUI)>;
-        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        mods = <(MOD_LSFT)>;
     };
 
     dvorak_8: dvorak_8 {
@@ -204,8 +198,7 @@
         bindings = <&kp RBRC>, <&kp N8>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_LCTL|MOD_LALT|MOD_LGUI)>;
-        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        mods = <(MOD_LSFT)>;
     };
 
     dvorak_9: dvorak_9 {
@@ -214,8 +207,7 @@
         bindings = <&kp RIGHT_BRACKET>, <&kp N9>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_LCTL|MOD_LALT|MOD_LGUI)>;
-        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        mods = <(MOD_LSFT)>;
     };
 
     dvorak_0: dvorak_0 {
@@ -224,14 +216,103 @@
         bindings = <&kp STAR>, <&kp N0>;
 
         #binding-cells = <0>;
-        mods = <(MOD_LSFT|MOD_LCTL|MOD_LALT|MOD_LGUI)>;
-        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        mods = <(MOD_LSFT)>;
     };
 
     dvorak_1_main: dvorak_1_main {
         compatible = "zmk,behavior-mod-morph";
         label = "DVORAK_1_MAIN";
         bindings = <&dvorak_1>, <&kp NUMBER_1>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+    };
+
+    dvorak_2_main: dvorak_2_main {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DVORAK_2_MAIN";
+        bindings = <&dvorak_2>, <&kp NUMBER_2>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+    };
+
+    dvorak_3_main: dvorak_3_main {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DVORAK_3_MAIN";
+        bindings = <&dvorak_3>, <&kp NUMBER_3>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+    };
+
+    dvorak_4_main: dvorak_4_main {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DVORAK_4_MAIN";
+        bindings = <&dvorak_4>, <&kp NUMBER_4>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+    };
+
+    dvorak_5_main: dvorak_5_main {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DVORAK_5_MAIN";
+        bindings = <&dvorak_5>, <&kp N5>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+    };
+
+    dvorak_6_main: dvorak_6_main {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DVORAK_6_MAIN";
+        bindings = <&dvorak_6>, <&kp NUMBER_6>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+    };
+
+    dvorak_7_main: dvorak_7_main {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DVORAK_7_MAIN";
+        bindings = <&dvorak_7>, <&kp NUMBER_7>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+    };
+
+    dvorak_8_main: dvorak_8_main {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DVORAK_8_MAIN";
+        bindings = <&dvorak_8>, <&kp N8>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+    };
+
+    dvorak_9_main: dvorak_9_main {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DVORAK_9_MAIN";
+        bindings = <&dvorak_9>, <&kp N9>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+        keep-mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
+    };
+
+    dvorak_0_main: dvorak_0_main {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DVORAK_0_MAIN";
+        bindings = <&dvorak_0>, <&kp N0>;
 
         #binding-cells = <0>;
         mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI)>;
@@ -256,11 +337,11 @@
         dvorak {
             display-name = "DVORAK";
             bindings = <
-&dvorak_equal             &dvorak_1_main   &dvorak_2        &dvorak_3            &dvorak_4          &dvorak_5        &kp UP_ARROW     &dvorak_6  &dvorak_7           &dvorak_8            &dvorak_9        &dvorak_0        &dvorak_dash
-&dvorak_grave             &kp SEMICOLON    &kp COMMA        &kp PERIOD           &kp P              &kp Y            &kp DOWN_ARROW   &kp F      &kp G               &kp C                &kp R            &kp L            &dvorak_backslash
-&kp ESCAPE                &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I            &kp LEFT_ARROW   &kp D      &hmr RIGHT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_ALT N  &hmr LEFT_GUI S  &kp MINUS
-&hml RIGHT_CONTROL SLASH  &kp SQT          &kp Q            &kp J                &kp K              &kp X            &kp RIGHT_ARROW  &kp B      &kp M               &kp W                &kp V            &kp Z            &dvorak_closebrace
-&kp C_MUTE                &tog 1           &kp LEFT_GUI     &kp CAPS             &ltthumb 2 SPACE   &kp BACKSPACE    &kp ENTER        &kp TAB    &ltthumb 3 ENTER    &kp DELETE           &trans           &trans
+&dvorak_equal             &dvorak_1_main   &dvorak_2_main   &dvorak_3_main       &dvorak_4_main     &dvorak_5_main    &kp UP_ARROW     &dvorak_6_main  &dvorak_7_main      &dvorak_8_main       &dvorak_9_main   &dvorak_0_main   &dvorak_dash
+&dvorak_grave             &kp SEMICOLON    &kp COMMA        &kp PERIOD           &kp P              &kp Y             &kp DOWN_ARROW   &kp F           &kp G               &kp C                &kp R            &kp L            &dvorak_backslash
+&kp ESCAPE                &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I             &kp LEFT_ARROW   &kp D           &hmr RIGHT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_ALT N  &hmr LEFT_GUI S  &kp MINUS
+&hml RIGHT_CONTROL SLASH  &kp SQT          &kp Q            &kp J                &kp K              &kp X             &kp RIGHT_ARROW  &kp B           &kp M               &kp W                &kp V            &kp Z            &dvorak_closebrace
+&kp C_MUTE                &tog 1           &kp LEFT_GUI     &kp CAPS             &ltthumb 2 SPACE   &kp BACKSPACE     &kp ENTER        &kp TAB         &ltthumb 3 ENTER    &kp DELETE           &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
