@@ -255,7 +255,7 @@
         dvorak {
             display-name = "DVORAK";
             bindings = <
-&dvorak_equal             &dvorak_1        &dvorak_2        &dvorak_3            &dvorak_4          &dvorak_5        &kp UP_ARROW     &dvorak_6  &dvorak_7           &dvorak_8            &dvorak_9        &dvorak_0        &dvorak_dash
+&dvorak_equal             &dvorak_1_main   &dvorak_2        &dvorak_3            &dvorak_4          &dvorak_5        &kp UP_ARROW     &dvorak_6  &dvorak_7           &dvorak_8            &dvorak_9        &dvorak_0        &dvorak_dash
 &dvorak_grave             &kp SEMICOLON    &kp COMMA        &kp PERIOD           &kp P              &kp Y            &kp DOWN_ARROW   &kp F      &kp G               &kp C                &kp R            &kp L            &dvorak_backslash
 &kp ESCAPE                &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I            &kp LEFT_ARROW   &kp D      &hmr RIGHT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_ALT N  &hmr LEFT_GUI S  &kp MINUS
 &hml RIGHT_CONTROL SLASH  &kp SQT          &kp Q            &kp J                &kp K              &kp X            &kp RIGHT_ARROW  &kp B      &kp M               &kp W                &kp V            &kp Z            &dvorak_closebrace
