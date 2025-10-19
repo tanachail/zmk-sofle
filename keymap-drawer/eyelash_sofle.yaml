@@ -2,7 +2,7 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   DVORAK:
   - {t: '|', s: '`'}
-  - {t: +, s: '1'}
+  - {t: +, s: Sft+1}
   - {t: '[', s: '2'}
   - {t: '{', s: '3'}
   - {t: (, s: '4'}
