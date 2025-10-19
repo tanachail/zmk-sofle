@@ -222,33 +222,42 @@
     behaviors {
     };
 
+    macros {
+        change_lang: change_lang {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tog 1 &kp LS(LEFT_CONTROL)>;
+            label = "CHANGE_LANG";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
-
-        base {
-            bindings = <
-&kp EQUAL                        &kp N1           &kp N2           &kp N3               &kp N4             &kp N5           &kp UP_ARROW     &kp N6   &kp N7              &kp N8               &kp N9           &kp N0              &kp MINUS
-&kp GRAVE                        &kp Q            &kp W            &kp E                &kp R              &kp T            &kp DOWN_ARROW   &kp Y    &kp U               &kp I                &kp O            &kp P               &kp BACKSLASH
-&kp ESCAPE                       &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G            &kp LEFT_ARROW   &kp H    &hmr RIGHT_SHIFT J  &hmr LEFT_CONTROL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMI  &kp APOS
-&hml RIGHT_CONTROL LEFT_BRACKET  &kp Z            &kp X            &kp C                &kp V              &kp B            &kp RIGHT_ARROW  &kp N    &kp M               &kp COMMA            &kp DOT          &kp SLASH           &kp RIGHT_BRACKET
-&kp C_MUTE                       &trans           &kp LEFT_WIN     &kp CAPS             &ltthumb 2 SPACE   &kp BACKSPACE    &kp ENTER        &kp TAB  &ltthumb 3 RET      &kp DELETE           &trans           &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "BASE";
-        };
 
         dvorak {
             display-name = "DVORAK";
             bindings = <
-&dvorak_equal             &dvorak_1        &dvorak_2        &dvorak_3            &dvorak_4          &dvorak_5    &kp UP_ARROW     &dvorak_6  &dvorak_7           &dvorak_8            &dvorak_9        &dvorak_0        &dvorak_dash
-&dvorak_grave             &kp SEMICOLON    &kp COMMA        &kp PERIOD           &kp P              &kp Y        &kp DOWN_ARROW   &kp F      &kp G               &kp C                &kp R            &kp L            &dvorak_backslash
-&kp ESCAPE                &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I        &kp LEFT_ARROW   &kp D      &hmr RIGHT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_ALT N  &hmr LEFT_GUI S  &kp MINUS
-&hml RIGHT_CONTROL SLASH  &kp SQT          &kp Q            &kp J                &kp K              &kp X        &kp RIGHT_ARROW  &kp B      &kp M               &kp W                &kp V            &kp Z            &dvorak_closebrace
-&kp C_MUTE                &trans           &trans           &trans               &trans             &trans       &kp ENTER        &trans     &trans              &trans               &trans           &trans
+&dvorak_equal             &dvorak_1        &dvorak_2        &dvorak_3            &dvorak_4          &dvorak_5        &kp UP_ARROW     &dvorak_6  &dvorak_7           &dvorak_8            &dvorak_9        &dvorak_0        &dvorak_dash
+&dvorak_grave             &kp SEMICOLON    &kp COMMA        &kp PERIOD           &kp P              &kp Y            &kp DOWN_ARROW   &kp F      &kp G               &kp C                &kp R            &kp L            &dvorak_backslash
+&kp ESCAPE                &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_CONTROL E  &hml LEFT_SHIFT U  &kp I            &kp LEFT_ARROW   &kp D      &hmr RIGHT_SHIFT H  &hmr LEFT_CONTROL T  &hmr LEFT_ALT N  &hmr LEFT_GUI S  &kp MINUS
+&hml RIGHT_CONTROL SLASH  &kp SQT          &kp Q            &kp J                &kp K              &kp X            &kp RIGHT_ARROW  &kp B      &kp M               &kp W                &kp V            &kp Z            &dvorak_closebrace
+&kp C_MUTE                &change_lang     &kp LEFT_GUI     &kp CAPS             &ltthumb 2 SPACE   &kp BACKSPACE    &kp ENTER        &kp TAB    &ltthumb 3 ENTER    &kp DELETE           &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+        base {
+            bindings = <
+&kp EQUAL                        &kp N1           &kp N2           &kp N3               &kp N4             &kp N5    &kp UP_ARROW     &kp N6  &kp N7              &kp N8               &kp N9           &kp N0              &kp MINUS
+&kp GRAVE                        &kp Q            &kp W            &kp E                &kp R              &kp T     &kp DOWN_ARROW   &kp Y   &kp U               &kp I                &kp O            &kp P               &kp BACKSLASH
+&kp ESCAPE                       &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G     &kp LEFT_ARROW   &kp H   &hmr RIGHT_SHIFT J  &hmr LEFT_CONTROL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMI  &kp APOS
+&hml RIGHT_CONTROL LEFT_BRACKET  &kp Z            &kp X            &kp C                &kp V              &kp B     &kp RIGHT_ARROW  &kp N   &kp M               &kp COMMA            &kp DOT          &kp SLASH           &kp RIGHT_BRACKET
+&trans                           &trans           &trans           &trans               &trans             &trans    &kp ENTER        &trans  &trans              &trans               &trans           &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            display-name = "BASE";
         };
 
         layer2 {
@@ -258,7 +267,7 @@
 &trans          &trans  &kp HOME  &kp UP_ARROW    &kp END    &kp PG_UP        &mmv MOVE_DOWN   &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp F12
 &trans          &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &mmv MOVE_LEFT   &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp BACKSPACE
 &trans          &trans  &trans    &trans          &trans     &trans           &mmv MOVE_RIGHT  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &kp ENTER
-&kp C_MUTE      &trans  &trans    &trans          &trans     &trans           &mkp LCLK        &trans           &kp KP_NUMBER_0  &trans           &trans           &trans
+&trans          &trans  &trans    &trans          &trans     &trans           &mkp LCLK        &trans           &kp KP_NUMBER_0  &trans           &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -280,11 +289,11 @@
         game {
             label = "Game";
             bindings = <
-&kp ESCAPE        &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans          &to 0
-&kp TAB           &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans     &trans          &trans
-&kp LEFT_SHIFT    &kp A   &kp S   &kp D      &kp F      &trans    &trans  &trans  &kp J   &kp K   &kp L      &kp UP_ARROW    &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &trans  &trans  &trans     &trans     &trans    &trans  &trans  &trans  &trans  &kp ENTER  &kp DOWN        &kp RIGHT
-&trans            &trans  &trans  &kp ENTER  &kp SPACE  &trans    &trans  &trans  &kp N   &trans  &trans     &kp LEFT_ARROW
+&kp ESCAPE        &kp N1  &kp N2  &kp N3     &kp N4     &kp N5    &trans  &kp N6  &kp N7  &kp N8     &kp N9     &kp N0          &to 0
+&kp TAB           &kp Q   &kp W   &kp E      &kp R      &kp T     &trans  &kp Y   &kp U   &kp I      &kp O      &kp P           &kp NON_US_BACKSLASH
+&kp LEFT_SHIFT    &kp A   &kp S   &kp D      &kp F      &kp G     &trans  &kp H   &kp J   &kp K      &kp L      &kp UP_ARROW    &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C      &kp V      &kp B     &trans  &kp N   &kp M   &kp COMMA  &kp ENTER  &kp DOWN        &kp RIGHT
+&trans            &trans  &trans  &kp ENTER  &kp SPACE  &trans    &trans  &trans  &kp N   &trans     &trans     &kp LEFT_ARROW
             >;
         };
     };
