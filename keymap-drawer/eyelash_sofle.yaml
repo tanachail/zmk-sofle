@@ -55,7 +55,7 @@ layers:
   - {t: '@', s: ^}
   - $$mdi:volume-off$$
   - {t: BASE, h: toggle}
-  - $$mdi:apple-keyboard-command$$
+  - RIGHT GUI
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
   - {t: '$$mdi:backspace$$', type: backspace}
