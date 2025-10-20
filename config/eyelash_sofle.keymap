@@ -376,11 +376,11 @@
         layer3 {
             label = "CON";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp C_MUTE       &kp C_VOLUME_DOWN  &kp C_VOL_UP     &trans  &trans  &trans
-&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &trans           &rgb_ug RGB_SPD    &rgb_ug RGB_SPI  &trans  &trans  &trans
-&trans          &out OUT_USB  &out OUT_BLE  &trans        &trans        &trans          &mmv MOVE_LEFT   &trans           &rgb_ug RGB_BRD    &rgb_ug RGB_BRI  &trans  &trans  &trans
-&trans          &sys_reset    &trans        &bootloader   &none         &trans          &mmv MOVE_RIGHT  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR    &rgb_ug RGB_EFF  &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &change_lang  &to 4           &mkp LCLK        &trans           &trans             &trans           &trans  &trans
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4    &mmv MOVE_UP     &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans  &trans           &rgb_ug RGB_TOG
+&bt BT_CLR_ALL  &out OUT_TOG  &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans          &mmv MOVE_DOWN   &trans      &trans             &mkp MCLK     &trans  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI
+&sys_reset      &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans          &mmv MOVE_LEFT   &trans      &mkp LCLK          &mkp RCLK     &trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
+&bootloader     &trans        &trans          &trans          &trans           &trans          &mmv MOVE_RIGHT  &trans      &trans             &trans        &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF
+&trans          &trans        &trans          &trans          &change_lang     &to 4           &mkp LCLK        &trans      &trans             &trans        &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
