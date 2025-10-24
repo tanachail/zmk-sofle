@@ -30,13 +30,13 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: U, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: U, h: '$$mdi:apple-keyboard-control$$'}
   - I
   - $$mdi:arrow-left-bold$$
   - D
-  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: RIGHT GUI}
   - {t: '-', s: _}
@@ -95,13 +95,13 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RIGHT GUI, s: ':'}
   - {t: '''', s: '"'}
