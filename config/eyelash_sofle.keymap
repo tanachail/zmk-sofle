@@ -326,13 +326,6 @@
         bindings = <&tog 1>, <&to 0>;
     };
 
-    change_lang_tap: change_lang_tap {
-        compatible = "zmk,behavior-tap-dance";
-        label = "CHANGE_LANG_TAP";
-        #binding-cells = <0>;
-        bindings = <&change_lang>, <&change_lang_first>;
-    };
-
     behaviors {
     };
 
@@ -342,20 +335,6 @@
             #binding-cells = <0>;
             bindings = <&tog 1 &kp LS(LEFT_ALT)>;
             label = "CHANGE_LANG";
-        };
-
-        change_lang_first: change_lang_first {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 0 &kp LS(LA(NUMBER_1))>;
-            label = "CHANGE_LANG_FIRST";
-        };
-
-        change_lang_second: change_lang_second {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 1 &kp LS(LA(NUMBER_2))>;
-            label = "CHANGE_LANG_SECOND";
         };
     };
 
@@ -369,7 +348,7 @@
 &dvorak_grave             &kp SEMICOLON    &kp COMMA        &kp PERIOD         &kp P                &kp Y             &kp DOWN_ARROW   &kp F           &kp G                &kp C               &kp R            &kp L             &dvorak_backslash
 &kp ESCAPE                &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_SHIFT E  &hml LEFT_CONTROL U  &kp I             &kp LEFT_ARROW   &kp D           &hmr LEFT_CONTROL H  &hmr RIGHT_SHIFT T  &hmr LEFT_ALT N  &hmr RIGHT_GUI S  &kp MINUS
 &hml RIGHT_CONTROL SLASH  &kp SQT          &kp Q            &kp J              &kp K                &kp X             &kp RIGHT_ARROW  &kp B           &kp M                &kp W               &kp V            &kp Z             &dvorak_closebrace
-&kp C_MUTE                &default_layer   &kp LEFT_GUI     &kp CAPS           &ltthumb 2 SPACE     &kp BACKSPACE     &kp ENTER        &kp TAB         &ltthumb 3 ENTER     &kp DELETE          &trans           &trans
+&kp C_MUTE                &default_layer   &kp LEFT_GUI     &trans             &ltthumb 2 SPACE     &kp BACKSPACE     &kp ENTER        &kp TAB         &ltthumb 3 ENTER     &kp DELETE          &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -404,11 +383,11 @@
         layer3 {
             label = "CON";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3      &bt BT_SEL 4           &mmv MOVE_UP     &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans  &trans           &rgb_ug RGB_TOG
-&bt BT_CLR_ALL  &out OUT_TOG    &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN    &trans                 &mmv MOVE_DOWN   &trans      &trans             &mkp MCLK     &trans  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI
-&sys_reset      &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &msc SCRL_RIGHT        &mmv MOVE_LEFT   &trans      &mkp LCLK          &mkp RCLK     &trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
-&bootloader     &trans          &trans          &trans          &trans            &trans                 &mmv MOVE_RIGHT  &trans      &trans             &trans        &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF
-&trans          &to 4           &trans          &trans          &change_lang_tap  &change_lang_second    &mkp LCLK        &trans      &trans             &trans        &trans  &trans
+&bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP     &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans  &trans           &rgb_ug RGB_TOG
+&bt BT_CLR_ALL  &out OUT_TOG    &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &trans             &mmv MOVE_DOWN   &trans      &trans             &mkp MCLK     &trans  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI
+&sys_reset      &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT    &mmv MOVE_LEFT   &trans      &mkp LCLK          &mkp RCLK     &trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
+&bootloader     &trans          &trans          &trans          &trans           &trans             &mmv MOVE_RIGHT  &trans      &trans             &trans        &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF
+&trans          &to 4           &trans          &trans          &change_lang     &kp CAPS           &mkp LCLK        &trans      &trans             &trans        &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
