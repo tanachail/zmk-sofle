@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - '&default_layer'
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -252,8 +252,8 @@ layers:
   - {t: Game, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&change_lang_tap'
-  - '&change_lang_second'
+  - '&change_lang'
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
