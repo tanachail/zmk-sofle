@@ -355,7 +355,7 @@
 &dvorak_grave             &kp SEMICOLON    &kp COMMA        &kp PERIOD         &kp P                &kp Y             &kp DOWN_ARROW   &kp F           &kp G                &kp C               &kp R            &kp L             &dvorak_backslash
 &kp ESCAPE                &hml LEFT_GUI A  &hml LEFT_ALT O  &hml LEFT_SHIFT E  &hml LEFT_CONTROL U  &kp I             &kp LEFT_ARROW   &kp D           &hmr LEFT_CONTROL H  &hmr RIGHT_SHIFT T  &hmr LEFT_ALT N  &hmr RIGHT_GUI S  &kp MINUS
 &hml RIGHT_CONTROL SLASH  &kp SQT          &kp Q            &kp J              &kp K                &kp X             &kp RIGHT_ARROW  &kp B           &kp M                &kp W               &kp V            &kp Z             &dvorak_closebrace
-&kp C_MUTE                &tog 1           &trans           &kp LEFT_GUI       &ltthumb 2 SPACE     &kp BACKSPACE     &kp ENTER        &kp TAB         &ltthumb 3 ENTER     &kp DELETE          &trans           &trans
+&kp C_MUTE                &default_layer   &trans           &kp LEFT_GUI       &ltthumb 2 SPACE     &kp BACKSPACE     &kp ENTER        &kp TAB         &ltthumb 3 ENTER     &kp DELETE          &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
