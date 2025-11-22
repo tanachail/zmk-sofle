@@ -54,7 +54,7 @@ layers:
   - Z
   - {t: '@', s: ^}
   - $$mdi:volume-off$$
-  - {t: BASE, h: toggle}
+  - '&default_layer'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: NAV&Fn}
