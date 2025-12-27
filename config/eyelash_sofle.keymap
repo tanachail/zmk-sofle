@@ -344,7 +344,7 @@
         change_lang: change_lang {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 1 &kp LS(LEFT_ALT)>;
+            bindings = <&tog 1 &kp LG(SPACE)>;
             label = "CHANGE_LANG";
         };
     };
