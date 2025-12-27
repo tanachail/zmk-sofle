@@ -106,7 +106,7 @@
     dvorak_backslash: dvorak_backslash {
         compatible = "zmk,behavior-mod-morph";
         label = "DVORAK_BACKSLASH";
-        bindings = <&kp NON_US_BACKSLASH>, <&kp HASH>;
+        bindings = <&kp BACKSLASH>, <&kp HASH>;
 
         #binding-cells = <0>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
