@@ -344,15 +344,6 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
     };
 
-    special_mode: special_mode {
-        compatible = "zmk,behavior-tap-dance";
-        label = "SPECIAL_MODE";
-        #binding-cells = <0>;
-        bindings = <&to 5>, <&to 4>;
-
-        tapping-term-ms = <175>;
-    };
-
     behaviors {
     };
 
@@ -401,7 +392,7 @@
 &trans          &trans  &kp HOME  &kp UP_ARROW    &kp END    &kp PG_UP        &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &kp F12
 &trans          &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN    &trans  &kp KP_SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS  &kp BACKSPACE
 &trans          &trans  &trans    &trans          &trans     &trans           &trans  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &kp ENTER
-&trans          &trans  &trans    &trans          &trans     &trans           &trans  &trans           &kp KP_NUMBER_0  &trans           &trans           &trans
+&trans          &to 5   &trans    &trans          &trans     &trans           &trans  &trans           &kp KP_NUMBER_0  &trans           &trans           &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
@@ -414,7 +405,7 @@
 &bt BT_CLR_ALL  &out OUT_TOG    &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN          &trans             &trans  &trans      &trans             &mkp MCLK     &trans  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI
 &sys_reset      &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT         &msc SCRL_RIGHT    &trans  &trans      &mkp LCLK          &mkp RCLK     &trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
 &bootloader     &trans          &trans          &trans          &trans                  &trans             &trans  &trans      &trans             &trans        &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF
-&trans          &special_mode   &trans          &trans          &change_lang_tap_dance  &kp CAPS           &trans  &trans      &trans             &trans        &trans  &trans
+&trans          &to 4           &trans          &trans          &change_lang_tap_dance  &kp CAPS           &trans  &trans      &trans             &trans        &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
