@@ -327,8 +327,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   CAD:
   - $$mdi:keyboard-esc$$
-  - '1'
-  - '2'
+  - {t: '`', s: '~'}
+  - P
   - '3'
   - KP MINUS
   - KP PLUS
@@ -370,7 +370,7 @@ layers:
   - X
   - C
   - V
-  - M
+  - B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
@@ -379,8 +379,8 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
   - $$mdi:volume-off$$
-  - {t: DVORAK, h: toggle}
-  - $$mdi:backspace-reverse-outline$$
+  - M
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
