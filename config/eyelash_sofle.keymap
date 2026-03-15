@@ -27,11 +27,18 @@
 };
 
 &mt {
-    flavor = "tap-preferred";
-    tapping-term-ms = <175>;
+    flavor = "balanced";
+    tapping-term-ms = <280>;
+    quick-tap-ms = <175>;
+    require-prior-idle-ms = <150>;
 };
 
-&lt { tapping-term-ms = <175>; };
+&lt {
+    tapping-term-ms = <280>;
+    quick-tap-ms = <175>;
+    require-prior-idle-ms = <150>;
+    flavor = "balanced";
+};
 
 / {
     combos { compatible = "zmk,combos"; };
@@ -429,11 +436,24 @@
         cad {
             display-name = "CAD";
             bindings = <
-&kp ESCAPE        &kp GRAVE  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS  &kp KP_PLUS    &mmv MOVE_UP     &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
-&kp TAB           &kp Q      &kp W         &kp E         &kp R         &kp Y          &mmv MOVE_DOWN   &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
-&kp LEFT_SHIFT    &kp A      &kp S         &kp D         &kp F         &kp G          &mmv MOVE_LEFT   &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
-&kp LEFT_CONTROL  &kp Z      &kp X         &kp C         &kp V         &kp B          &mmv MOVE_RIGHT  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
-&kp C_MUTE        &kp M      &kp LEFT_ALT  &kp ENTER     &kp SPACE     &kp DELETE     &mkp LCLK        &to 0  &to 0  &to 0  &trans  &trans
+&kp ESCAPE        &kp GRAVE     &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS  &kp KP_PLUS    &mmv MOVE_UP     &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
+&kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T          &mmv MOVE_DOWN   &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
+&kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp G          &mmv MOVE_LEFT   &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
+&kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V         &kp B          &mmv MOVE_RIGHT  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
+&kp C_MUTE        &kp LEFT_ALT  &trans        &kp ENTER     &lt 6 SPACE   &kp DELETE     &mkp LCLK        &to 0  &to 0  &to 0  &trans  &trans
+            >;
+
+            sensor-bindings = <&mouse_scroll_left>;
+        };
+
+        cad_upper {
+            display-name = "CAD";
+            bindings = <
+&trans      &trans  &trans    &trans          &trans     &trans    &mmv MOVE_UP     &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &kp HOME  &kp UP_ARROW    &trans     &kp Y     &mmv MOVE_DOWN   &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp H     &mmv MOVE_LEFT   &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans    &trans          &kp M      &trans    &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
+&kp C_MUTE  &trans  &trans    &trans          &trans     &trans    &mkp LCLK        &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
