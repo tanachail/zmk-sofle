@@ -249,8 +249,8 @@ layers:
   - RGB EFR
   - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Game, h: toggle}
-  - {t: CAD, h: toggle}
+  - '&special_mode'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&change_lang_tap_dance'
   - $$mdi:apple-keyboard-caps$$
