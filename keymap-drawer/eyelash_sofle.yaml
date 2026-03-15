@@ -328,7 +328,7 @@ layers:
   CAD:
   - $$mdi:keyboard-esc$$
   - {t: '`', s: '~'}
-  - P
+  - '2'
   - '3'
   - KP MINUS
   - KP PLUS
