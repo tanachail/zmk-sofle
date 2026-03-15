@@ -184,7 +184,7 @@ layers:
   - KP DOT
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -249,7 +249,7 @@ layers:
   - RGB EFR
   - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&special_mode'
+  - {t: Game, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&change_lang_tap_dance'
