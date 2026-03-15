@@ -429,7 +429,7 @@
         cad {
             display-name = "CAD";
             bindings = <
-&kp ESCAPE        &kp GRAVE  &kp P         &kp NUMBER_3  &kp KP_MINUS  &kp KP_PLUS      &mmv MOVE_UP     &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
+&kp ESCAPE        &kp GRAVE  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS  &kp KP_PLUS      &mmv MOVE_UP     &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
 &kp TAB           &kp Q      &kp W         &kp E         &kp R         &kp Y            &mmv MOVE_DOWN   &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
 &kp LEFT_SHIFT    &kp A      &kp S         &kp D         &kp F         &kp G            &mmv MOVE_LEFT   &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
 &kp LEFT_CONTROL  &kp Z      &kp X         &kp C         &kp V         &kp B            &mmv MOVE_RIGHT  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
