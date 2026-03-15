@@ -380,7 +380,7 @@ layers:
   - {t: DVORAK, h: toggle}
   - $$mdi:volume-off$$
   - {t: DVORAK, h: toggle}
-  - HOME
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
