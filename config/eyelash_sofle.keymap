@@ -443,7 +443,7 @@
 &trans  &trans  &trans    &trans          &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp HOME  &kp UP_ARROW    &kp DELETE  &kp Y     &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT   &kp H     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans          &kp M       &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans          &kp M       &kp N     &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans    &trans          &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
