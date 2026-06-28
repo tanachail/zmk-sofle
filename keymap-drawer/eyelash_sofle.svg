@@ -1430,22 +1430,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<a href="#NAVFn">
-<text x="196" y="145" class="combo tap layer-activator">NAV&amp;Fn</text>
-</a><text x="196" y="156" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M728,145 l-37,2" class="combo"/>
-<path d="M728,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="132" width="28" height="26" class="combo"/>
-<a href="#CON">
-<text x="728" y="145" class="combo tap layer-activator">CON</text>
-</a><text x="728" y="156" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-CON">
@@ -1802,22 +1786,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<a href="#NAVFn">
-<text x="196" y="145" class="combo tap layer-activator">NAV&amp;Fn</text>
-</a><text x="196" y="156" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M728,145 l-37,2" class="combo"/>
-<path d="M728,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="132" width="28" height="26" class="combo"/>
-<a href="#CON">
-<text x="728" y="145" class="combo tap layer-activator">CON</text>
-</a><text x="728" y="156" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-Game">
@@ -2158,22 +2126,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<a href="#NAVFn">
-<text x="196" y="145" class="combo tap layer-activator">NAV&amp;Fn</text>
-</a><text x="196" y="156" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M728,145 l-37,2" class="combo"/>
-<path d="M728,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="132" width="28" height="26" class="combo"/>
-<a href="#CON">
-<text x="728" y="145" class="combo tap layer-activator">CON</text>
-</a><text x="728" y="156" class="combo hold">toggle</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-CAD">
@@ -2496,22 +2448,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<path d="M196,145 l-37,2" class="combo"/>
-<path d="M196,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="182" y="132" width="28" height="26" class="combo"/>
-<a href="#NAVFn">
-<text x="196" y="145" class="combo tap layer-activator">NAV&amp;Fn</text>
-</a><text x="196" y="156" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<path d="M728,145 l-37,2" class="combo"/>
-<path d="M728,145 l37,2" class="combo"/>
-<rect rx="6" ry="6" x="714" y="132" width="28" height="26" class="combo"/>
-<a href="#CON">
-<text x="728" y="145" class="combo tap layer-activator">CON</text>
-</a><text x="728" y="156" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

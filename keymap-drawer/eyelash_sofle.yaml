@@ -393,5 +393,7 @@ layers:
 combos:
 - p: [28, 29, 30]
   k: {t: NAV&Fn, h: toggle}
+  l: [DVORAK, BASE]
 - p: [34, 35, 36]
   k: {t: CON, h: toggle}
+  l: [DVORAK, BASE]
