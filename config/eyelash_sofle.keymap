@@ -44,14 +44,14 @@
     combos {
         compatible = "zmk,combos";
 
-        to2 {
-            bindings = <&to 2>;
-            key-positions = <17 16>;
+        tog2 {
+            bindings = <&tog 2>;
+            key-positions = <28 29 30>;
         };
 
-        to3 {
-            bindings = <&to 3>;
-            key-positions = <21 22>;
+        tog3 {
+            bindings = <&tog 3>;
+            key-positions = <34 35 36>;
         };
     };
 
