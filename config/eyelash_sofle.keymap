@@ -47,13 +47,13 @@
         tog2 {
             bindings = <&tog 2>;
             key-positions = <28 29 30>;
-            layers = <0 1>;
+            layers = <0 1 2>;
         };
 
         tog3 {
             bindings = <&tog 3>;
             key-positions = <34 35 36>;
-            layers = <0 1>;
+            layers = <0 1 3>;
         };
     };
 
