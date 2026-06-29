@@ -187,7 +187,7 @@ layers:
   - {t: CAD, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DVORAK, h: toggle, type: held}
+  - {t: NAV&Fn, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -256,7 +256,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DVORAK, h: toggle, type: held}
+  - {t: CON, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
