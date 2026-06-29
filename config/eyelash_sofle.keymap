@@ -55,6 +55,12 @@
             key-positions = <34 35 36>;
             layers = <0 1 3>;
         };
+
+        tog_cad {
+            bindings = <&tog 6>;
+            key-positions = <28 29 30>;
+            layers = <5 6>;
+        };
     };
 
     hml: hml {
@@ -438,8 +444,8 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        cad {
-            display-name = "CAD";
+        cad_base {
+            display-name = "CAD_B";
             bindings = <
 &kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5             &trans  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
 &kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T              &trans  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
@@ -452,20 +458,20 @@
         };
 
         cad_anotherhalf {
-            display-name = "CAD";
+            display-name = "CAD_A";
             bindings = <
 &kp KP_PLUS   &kp N0     &kp N9  &kp N8  &kp N7  &kp NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp KP_MINUS  &kp P      &kp O   &kp I   &kp U   &kp Y           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &kp GRAVE  &kp L   &kp K   &kp J   &kp H           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &trans     &trans  &trans  &kp M   &kp N           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &to 0      &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &to 0      &trans  &trans  &tog 6  &trans          &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
         };
 
         cad_symbol {
-            display-name = "CAD";
+            display-name = "CAD_S";
             bindings = <
 &trans  &trans  &trans    &trans    &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp HOME  &kp UP    &kp DELETE  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
