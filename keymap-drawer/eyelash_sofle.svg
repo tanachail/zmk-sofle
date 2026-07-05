@@ -1438,6 +1438,14 @@ rect.held, rect.combo.held {
 <text x="196" y="145" class="combo tap layer-activator">NAV&amp;Fn</text>
 </a><text x="196" y="156" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-1">
+<path d="M728,145 l-37,2" class="combo"/>
+<path d="M728,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="714" y="132" width="28" height="26" class="combo"/>
+<a href="#NAVFn">
+<text x="728" y="145" class="combo tap layer-activator">NAV&amp;Fn</text>
+</a><text x="728" y="156" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-CON">

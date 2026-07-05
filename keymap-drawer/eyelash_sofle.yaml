@@ -530,3 +530,6 @@ combos:
 - p: [28, 29, 30]
   k: {t: CAD_A, h: toggle}
   l: [CAD_B, CAD_A]
+- p: [34, 35, 36]
+  k: {t: NAV&Fn, h: toggle}
+  l: [NAV&Fn]
