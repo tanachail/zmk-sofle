@@ -525,9 +525,6 @@ combos:
   k: {t: NAV&Fn, h: toggle}
   l: [DVORAK, BASE, NAV&Fn]
 - p: [34, 35, 36]
-  k: {t: NAV&Fn, h: toggle}
-  l: [NAV&Fn]
-- p: [34, 35, 36]
   k: {t: CON, h: toggle}
   l: [DVORAK, BASE, CON]
 - p: [28, 29, 30]
