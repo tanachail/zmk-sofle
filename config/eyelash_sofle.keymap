@@ -50,6 +50,12 @@
             layers = <0 1 2>;
         };
 
+        tog2b {
+            bindings = <&tog 2>;
+            key-positions = <34 35 36>;
+            layers = <2>;
+        };
+
         tog3 {
             bindings = <&tog 3>;
             key-positions = <34 35 36>;
@@ -60,12 +66,6 @@
             bindings = <&tog 6>;
             key-positions = <28 29 30>;
             layers = <5 6>;
-        };
-
-        tog2b {
-            bindings = <&tog 2>;
-            key-positions = <34 35 36>;
-            layers = <2>;
         };
     };
 
