@@ -50,28 +50,28 @@
             layers = <0 1>;
         };
 
-        tog3a {
-            bindings = <&tog 3>;
-            key-positions = <34 35 36>;
-            layers = <0 1>;
-        };
-
-        tog_cad {
-            bindings = <&tog 6>;
-            key-positions = <28 29 30>;
-            layers = <5 6>;
-        };
-
         tog2b {
             bindings = <&tog 2>;
             key-positions = <28 29 30 34 35 36>;
             layers = <2>;
         };
 
+        tog3a {
+            bindings = <&tog 3>;
+            key-positions = <34 35 36>;
+            layers = <0 1>;
+        };
+
         tog3b {
             bindings = <&tog 3>;
             key-positions = <28 29 30 34 35 36>;
             layers = <3>;
+        };
+
+        tog_cad {
+            bindings = <&tog 6>;
+            key-positions = <28 29 30>;
+            layers = <5 6>;
         };
     };
 
