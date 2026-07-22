@@ -191,7 +191,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: KP 0, h: '$$mdi:keyboard-return$$'}
+  - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -536,3 +536,9 @@ combos:
 - p: [28, 29, 30]
   k: {t: CAD_A, h: toggle}
   l: [CAD_B, CAD_A]
+- p: [34, 35]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [NAV&Fn]
+- p: [35, 36]
+  k: $$mdi:keyboard-esc$$
+  l: [NAV&Fn]
