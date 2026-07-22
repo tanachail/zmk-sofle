@@ -85,12 +85,6 @@
             key-positions = <35 36>;
             layers = <2>;
         };
-
-        spacebar {
-            bindings = <&kp SPACE>;
-            key-positions = <29 30>;
-            layers = <0 1 2 5 6>;
-        };
     };
 
     hml: hml {
