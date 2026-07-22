@@ -695,10 +695,6 @@ rect.held, rect.combo.held {
 <text x="728" y="145" class="combo tap layer-activator">CON</text>
 </a><text x="728" y="156" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
-</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-BASE">
@@ -1069,10 +1065,6 @@ rect.held, rect.combo.held {
 <a href="#CON">
 <text x="728" y="145" class="combo tap layer-activator">CON</text>
 </a><text x="728" y="156" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -1461,10 +1453,6 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="747" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -2572,10 +2560,6 @@ rect.held, rect.combo.held {
 <text x="196" y="145" class="combo tap layer-activator">CAD_A</text>
 </a><text x="196" y="156" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
-</g>
 </g>
 </g>
 <g transform="translate(40, 2329)" class="layer-CAD_A">
@@ -2923,10 +2907,6 @@ rect.held, rect.combo.held {
 <a href="#CAD_A">
 <text x="196" y="145" class="combo tap layer-activator">CAD_A</text>
 </a><text x="196" y="156" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>

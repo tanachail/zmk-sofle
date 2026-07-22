@@ -542,6 +542,3 @@ combos:
 - p: [35, 36]
   k: $$mdi:keyboard-esc$$
   l: [NAV&Fn]
-- p: [29, 30]
-  k: $$mdi:keyboard-space$$
-  l: [DVORAK, BASE, NAV&Fn, CAD_B, CAD_A]
