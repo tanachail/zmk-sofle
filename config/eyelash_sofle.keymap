@@ -475,7 +475,7 @@
 &kp TAB                  &kp Q           &kp W           &kp E             &kp R               &kp T              &trans  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
 &mt LEFT_SHIFT HOME      &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &kp G              &trans  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
 &mt LEFT_CONTROL DELETE  &kp Z           &kp X           &kp C             &kp V               &kp B              &trans  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
-&trans                   &kp LEFT_WIN    &kp LEFT_ALT    &kp ENTER         &lt 6 SPACE         &lt 7 BACKSPACE    &trans  &to 0  &to 0  &to 0  &trans  &trans
+&trans                   &trans          &kp LEFT_ALT    &kp ENTER         &lt 6 SPACE         &lt 7 BACKSPACE    &trans  &to 0  &to 0  &to 0  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
