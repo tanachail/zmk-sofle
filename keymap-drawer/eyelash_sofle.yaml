@@ -379,7 +379,7 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LEFT WIN
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: CAD_A}
