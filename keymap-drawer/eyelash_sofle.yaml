@@ -353,10 +353,10 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
   - {t: HOME, h: '$$mdi:apple-keyboard-shift$$'}
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: DVORAK, h: toggle}
@@ -418,10 +418,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
-  - L
-  - K
-  - J
+  - {t: '`', h: '$$mdi:apple-keyboard-command$$', s: '~'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - H
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
