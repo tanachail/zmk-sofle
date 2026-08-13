@@ -365,7 +365,7 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
-  - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - Z
   - X
   - C
@@ -383,7 +383,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: CAD_A}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: CAD_S}
+  - {t: '$$mdi:backspace$$', h: CAD_S}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
@@ -430,7 +430,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
   - {t: /, s: '?'}
   - .
   - {t: ',', s: <}
