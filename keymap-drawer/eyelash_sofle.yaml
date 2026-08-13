@@ -339,7 +339,7 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
-  - $$mdi:keyboard-tab$$
+  - {t: '`', s: '~'}
   - Q
   - W
   - E
@@ -352,7 +352,7 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
-  - {t: HOME, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -365,7 +365,7 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: HOME, h: '$$mdi:apple-keyboard-control$$'}
   - Z
   - X
   - C
@@ -380,10 +380,10 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: CAD_A}
-  - {t: '$$mdi:backspace$$', h: CAD_S}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: CAD_S}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
@@ -418,10 +418,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: DVORAK, h: toggle}
-  - {t: '`', h: '$$mdi:apple-keyboard-command$$', s: '~'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ;, s: ':'}
+  - L
+  - K
+  - J
   - H
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -447,7 +447,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: CAD_A, h: toggle, type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -533,9 +533,6 @@ combos:
 - p: [28, 29, 30]
   k: {t: CON, h: toggle}
   l: [CON]
-- p: [28, 29, 30]
-  k: {t: CAD_A, h: toggle}
-  l: [CAD_B, CAD_A]
 - p: [34, 35]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [NAV&Fn]
