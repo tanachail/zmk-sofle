@@ -83,6 +83,7 @@
         togCAD {
             bindings = <&tog 5>;
             key-positions = <27 28 29>;
+            layers = <0 1 2 4 5 6 7>;
         };
     };
 
@@ -470,11 +471,11 @@
         cad_base {
             display-name = "CAD_B";
             bindings = <
-&kp ESCAPE               &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3        &kp NUMBER_4        &kp N5             &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&kp GRAVE                &kp Q           &kp W           &kp E               &kp R               &kp T              &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&mt LEFT_SHIFT TAB       &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D    &mt LEFT_CONTROL F  &kp G              &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&mt LEFT_CONTROL DELETE  &kp Z           &kp X           &kp C               &kp V               &kp B              &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans                   &trans          &trans          &mt LEFT_ALT ENTER  &lt 6 SPACE         &lt 7 BACKSPACE    &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
+&kp ESCAPE               &kp NUMBER_1    &kp NUMBER_2        &kp NUMBER_3      &kp NUMBER_4        &kp N5    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&kp GRAVE                &kp Q           &kp W               &kp E             &kp R               &kp T     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&mt LEFT_SHIFT TAB       &mt LEFT_GUI A  &mt LEFT_ALT S      &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &kp G     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&mt LEFT_CONTROL DELETE  &kp Z           &kp X               &kp C             &kp V               &kp B     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&trans                   &trans          &mt LEFT_ALT ENTER  &lt 7 SPACE       &lt 6 BACKSPACE     &trans    &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
@@ -486,7 +487,7 @@
 &kp KP_PLUS   &kp N0         &kp N9      &kp N8     &kp N7  &kp NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp KP_MINUS  &kp P          &kp O       &kp I      &kp U   &kp Y           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &kp SEMICOLON  &kp L       &kp K      &kp J   &kp H           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp HOME      &kp SLASH      &kp PERIOD  &kp COMMA  &kp M   &kp N           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &kp SLASH      &kp PERIOD  &kp COMMA  &kp M   &kp N           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &trans         &trans      &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
@@ -496,11 +497,11 @@
         cad_symbol {
             display-name = "CAD_S";
             bindings = <
-&trans  &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &kp UP    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans        &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp HOME  &kp UP_ARROW  &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans        &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans    &trans        &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
