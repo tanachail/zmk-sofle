@@ -157,7 +157,7 @@ layers:
   - KP 9
   - KP PLUS
   - F12
-  - {t: CAD_B, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -333,12 +333,12 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
   - {t: '`', s: '~'}
   - Q
   - W
@@ -346,12 +346,12 @@ layers:
   - R
   - T
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -359,12 +359,12 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - Z
   - X
@@ -372,12 +372,12 @@ layers:
   - V
   - B
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -385,9 +385,9 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: CAD_A}
   - {t: '$$mdi:backspace$$', h: CAD_S}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
-  - {t: DVORAK, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   CAD_A:
@@ -417,7 +417,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: DVORAK, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ;, s: ':'}
   - L
   - K
@@ -539,3 +539,5 @@ combos:
 - p: [35, 36]
   k: $$mdi:keyboard-esc$$
   l: [NAV&Fn]
+- p: [27, 28, 29]
+  k: {t: CAD_B, h: toggle}
