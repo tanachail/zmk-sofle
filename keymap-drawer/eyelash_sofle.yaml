@@ -541,4 +541,4 @@ combos:
   l: [NAV&Fn]
 - p: [27, 28, 29]
   k: {t: CAD_B, h: toggle}
-  l: [DVORAK, BASE, NAV&Fn, Game, CAD_B, CAD_A, CAD_S]
+  l: [DVORAK, BASE, NAV&Fn, CAD_B]
