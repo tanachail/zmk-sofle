@@ -380,10 +380,10 @@ layers:
   - {t: CAD_B, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: CAD_A}
-  - {t: '$$mdi:backspace$$', h: CAD_S}
+  - {t: '$$mdi:keyboard-space$$', h: CAD_S}
+  - {t: '$$mdi:backspace$$', h: CAD_A}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: CAD_B, h: toggle}
   - {t: CAD_B, h: toggle}
@@ -430,7 +430,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
   - .
   - {t: ',', s: <}
@@ -470,8 +470,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -512,8 +511,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -541,3 +541,4 @@ combos:
   l: [NAV&Fn]
 - p: [27, 28, 29]
   k: {t: CAD_B, h: toggle}
+  l: [DVORAK, BASE, NAV&Fn, Game, CAD_B, CAD_A, CAD_S]
