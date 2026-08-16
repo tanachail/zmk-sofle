@@ -59,7 +59,7 @@
         tog2c {
             bindings = <&tog 2>;
             key-positions = <28 16 30>;
-            layers = <0 1 2>;
+            layers = <0 1>;
         };
 
         tog3a {
