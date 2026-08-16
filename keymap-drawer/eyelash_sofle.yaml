@@ -536,12 +536,18 @@ combos:
 - p: [34, 35, 36]
   k: {t: CON, h: toggle}
   l: [CON]
-- p: [34, 35, 30, 29]
+- p: [34, 35]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [NAV&Fn]
-- p: [35, 36, 28, 29]
+- p: [35, 36]
   k: $$mdi:keyboard-esc$$
   l: [NAV&Fn]
 - p: [27, 28, 29]
   k: {t: CAD_B, h: toggle}
   l: [DVORAK, BASE, NAV&Fn, CAD_B]
+- p: [30, 29]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [NAV&Fn]
+- p: [29, 28]
+  k: $$mdi:keyboard-esc$$
+  l: [NAV&Fn]
