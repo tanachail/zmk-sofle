@@ -74,15 +74,15 @@
             layers = <3>;
         };
 
-        Numpad_Enter {
+        Numpad_Enter1 {
             bindings = <&kp ENTER>;
-            key-positions = <34 35 30 29>;
+            key-positions = <34 35>;
             layers = <2>;
         };
 
-        Numpad_ESC {
+        Numpad_ESC1 {
             bindings = <&kp ESCAPE>;
-            key-positions = <35 36 28 29>;
+            key-positions = <35 36>;
             layers = <2>;
         };
 
@@ -90,6 +90,18 @@
             bindings = <&tog 5>;
             key-positions = <27 28 29>;
             layers = <0 1 2 5>;
+        };
+
+        Numpad_Enter2 {
+            bindings = <&kp ENTER>;
+            key-positions = <30 29>;
+            layers = <2>;
+        };
+
+        Numpad_ESC2 {
+            bindings = <&kp ESCAPE>;
+            key-positions = <29 28>;
+            layers = <2>;
         };
     };
 
