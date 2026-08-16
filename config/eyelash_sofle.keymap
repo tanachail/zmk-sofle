@@ -76,7 +76,7 @@
 
         Numpad_Enter {
             bindings = <&kp ENTER>;
-            key-positions = <34 35>;
+            key-positions = <34 35 30 29>;
             layers = <2>;
         };
 
