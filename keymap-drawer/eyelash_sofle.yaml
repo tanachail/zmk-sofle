@@ -521,16 +521,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [28, 29, 30]
+- p: [34, 35, 36]
   k: {t: NAV&Fn, h: toggle}
   l: [DVORAK, BASE, NAV&Fn]
-- p: [34, 35, 36]
+- p: [30, 29, 28]
   k: {t: NAV&Fn, h: toggle}
   l: [NAV&Fn]
-- p: [34, 35, 36]
+- p: [30, 29, 28]
   k: {t: CON, h: toggle}
   l: [DVORAK, BASE, CON]
-- p: [28, 29, 30]
+- p: [34, 35, 36]
   k: {t: CON, h: toggle}
   l: [CON]
 - p: [34, 35]
