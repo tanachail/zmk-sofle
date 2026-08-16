@@ -82,7 +82,7 @@
 
         Numpad_ESC {
             bindings = <&kp ESCAPE>;
-            key-positions = <35 36>;
+            key-positions = <35 36 28 29>;
             layers = <2>;
         };
 
