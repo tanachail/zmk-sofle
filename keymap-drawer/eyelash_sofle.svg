@@ -1476,15 +1476,23 @@ rect.held, rect.combo.held {
 <text x="196" y="145" class="combo tap layer-activator">NAV&amp;Fn</text>
 </a><text x="196" y="156" class="combo hold">toggle</text>
 </g>
-<g class="combo enter combopos-2">
+<g class="combo combopos-2">
+<path d="M196,126 l-39,14" class="combo"/>
+<path d="M196,126 l39,14" class="combo"/>
+<rect rx="6" ry="6" x="182" y="113" width="28" height="26" class="combo"/>
+<a href="#NAVFn">
+<text x="196" y="126" class="combo tap layer-activator">NAV&amp;Fn</text>
+</a><text x="196" y="137" class="combo hold">toggle</text>
+</g>
+<g class="combo enter combopos-3">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="691" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="747" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-5">
 <path d="M140,152 l-38,11" class="combo"/>
 <path d="M140,152 l38,-8" class="combo"/>
 <rect rx="6" ry="6" x="126" y="139" width="28" height="26" class="combo"/>
