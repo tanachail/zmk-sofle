@@ -529,7 +529,7 @@ combos:
   l: [NAV&Fn]
 - p: [28, 16, 30]
   k: {t: NAV&Fn, h: toggle}
-  l: [DVORAK, BASE, NAV&Fn]
+  l: [DVORAK, BASE]
 - p: [30, 29, 28]
   k: {t: CON, h: toggle}
   l: [DVORAK, BASE, CON]
