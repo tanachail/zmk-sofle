@@ -536,7 +536,7 @@ combos:
 - p: [34, 35, 36]
   k: {t: CON, h: toggle}
   l: [CON]
-- p: [34, 35]
+- p: [34, 35, 30, 29]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [NAV&Fn]
 - p: [35, 36]
