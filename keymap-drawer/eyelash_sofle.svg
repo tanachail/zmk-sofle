@@ -1493,8 +1493,12 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="453" y="134" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="747" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<path d="M462,144 l247,-3" class="combo"/>
+<path d="M462,144 l303,3" class="combo"/>
+<path d="M462,144 l-303,3" class="combo"/>
+<path d="M462,144 l-247,-3" class="combo"/>
+<rect rx="6" ry="6" x="448" y="130" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="453" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo combopos-5">
 <path d="M140,152 l-38,11" class="combo"/>
