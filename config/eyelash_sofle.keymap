@@ -412,18 +412,6 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
     };
 
-    CAD_F: CAD_F {
-        compatible = "zmk,behavior-hold-tap";
-        label = "CAD_F";
-        bindings = <&CADF>, <&kp>;
-
-        #binding-cells = <2>;
-        tapping-term-ms = <280>;
-        quick-tap-ms = <175>;
-        require-prior-idle-ms = <150>;
-        flavor = "balanced";
-    };
-
     behaviors {
     };
 
@@ -433,13 +421,6 @@
             #binding-cells = <0>;
             bindings = <&tog 1 &kp LG(SPACE)>;
             label = "CHANGE_LANG";
-        };
-
-        CADF: CADF {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&tog 5 &kp LEFT_CONTROL>;
-            label = "CADF";
         };
     };
 
@@ -516,7 +497,7 @@
             bindings = <
 &kp ESCAPE               &kp NUMBER_1    &kp NUMBER_2        &kp NUMBER_3        &kp NUMBER_4     &kp N5    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &kp GRAVE                &kp Q           &kp W               &kp E               &kp R            &kp T     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&mt LEFT_SHIFT TAB       &mt LEFT_ALT A  &mt LEFT_SHIFT S    &mt LEFT_CONTROL D  &CAD_F 0 F       &kp G     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&mt LEFT_SHIFT TAB       &mt LEFT_ALT A  &mt LEFT_SHIFT S    &mt LEFT_CONTROL D  &kp F            &kp G     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &mt LEFT_CONTROL DELETE  &kp Z           &kp X               &kp C               &kp V            &kp B     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &trans                   &trans          &mt LEFT_ALT ENTER  &lt 7 SPACE         &lt 6 BACKSPACE  &trans    &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
             >;
