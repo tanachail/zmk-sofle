@@ -353,10 +353,10 @@ layers:
   - {t: CAD_B, h: toggle}
   - {t: CAD_B, h: toggle}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '&CADF'}
   - G
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: CAD_B, h: toggle}
@@ -548,6 +548,9 @@ combos:
 - p: [29, 28]
   k: $$mdi:keyboard-esc$$
   l: [NAV&Fn]
-- p: [27, 28, 29]
+- p: [28, 29, 27]
   k: {t: CAD_B, h: toggle}
-  l: [DVORAK, BASE, NAV&Fn, CAD_B]
+  l: [DVORAK, BASE, NAV&Fn]
+- p: [28, 29, 30]
+  k: {t: CAD_B, h: toggle}
+  l: [CAD_B]
