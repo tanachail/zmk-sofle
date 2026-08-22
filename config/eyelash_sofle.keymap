@@ -100,7 +100,7 @@
 
         togCAD1 {
             bindings = <&tog 5>;
-            key-positions = <28 29 27>;
+            key-positions = <29 27 30>;
             layers = <0 1 2>;
         };
 
@@ -412,6 +412,15 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
     };
 
+    cad_tap_dance: cad_tap_dance {
+        compatible = "zmk,behavior-tap-dance";
+        label = "CAD_TAP_DANCE";
+        #binding-cells = <0>;
+        bindings = <&lt 6 SPACE>, <&mo 7>;
+
+        tapping-term-ms = <175>;
+    };
+
     behaviors {
     };
 
@@ -495,11 +504,11 @@
         cad_base {
             display-name = "CAD_B";
             bindings = <
-&kp ESCAPE               &kp NUMBER_1    &kp NUMBER_2        &kp NUMBER_3        &kp NUMBER_4     &kp N5    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&kp GRAVE                &kp Q           &kp W               &kp E               &kp R            &kp T     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&mt LEFT_SHIFT TAB       &mt LEFT_ALT A  &mt LEFT_SHIFT S    &mt LEFT_CONTROL D  &kp F            &kp G     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&mt LEFT_CONTROL DELETE  &kp Z           &kp X               &kp C               &kp V            &kp B     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans                   &trans          &mt LEFT_ALT ENTER  &lt 7 SPACE         &lt 6 BACKSPACE  &trans    &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
+&kp ESCAPE               &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3        &kp NUMBER_4        &kp N5           &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&kp GRAVE                &kp Q           &kp W           &kp E               &kp R               &kp T            &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&mt LEFT_SHIFT TAB       &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D    &mt LEFT_CONTROL F  &kp G            &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&mt LEFT_CONTROL DELETE  &kp Z           &kp X           &kp C               &kp V               &kp B            &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&trans                   &trans          &trans          &mt LEFT_ALT ENTER  &cad_tap_dance      &kp BACKSPACE    &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
@@ -521,11 +530,11 @@
         cad_symbol {
             display-name = "CAD_S";
             bindings = <
-&trans  &trans    &trans        &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp HOME  &kp UP_ARROW  &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans        &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans        &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp HOME  &kp UP_ARROW  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
