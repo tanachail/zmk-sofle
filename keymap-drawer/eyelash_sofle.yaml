@@ -177,17 +177,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
   - KP 1
   - KP 2
   - KP 3
   - KP DOT
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: CAD, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: NAV&Fn, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -256,7 +256,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: CON, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -325,7 +325,137 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  CAD:
+  CAD_B:
+  - $$mdi:keyboard-esc$$
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: '`', s: '~'}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: LEFT WIN}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - G
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
+  - '&cad_tap_dance'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  CAD_A:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', s: )}
+  - {t: '9', s: (}
+  - {t: '8', s: '*'}
+  - {t: '7', s: '&'}
+  - '6'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - P
+  - O
+  - I
+  - U
+  - Y
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ;, s: ':'}
+  - L
+  - K
+  - J
+  - H
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
+  - .
+  - {t: ',', s: <}
+  - M
+  - N
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  CAD_S:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -343,8 +473,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - $$mdi:arrow-up-bold$$
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - END
+  - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -357,6 +487,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -382,11 +513,44 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [34, 35, 36]
+  k: {t: NAV&Fn, h: toggle}
+  l: [DVORAK, BASE, NAV&Fn]
+- p: [30, 29, 28]
+  k: {t: NAV&Fn, h: toggle}
+  l: [NAV&Fn]
+- p: [28, 16, 30]
+  k: {t: NAV&Fn, h: toggle}
+  l: [DVORAK, BASE, NAV&Fn]
+- p: [30, 29, 28]
+  k: {t: CON, h: toggle}
+  l: [DVORAK, BASE, CON]
+- p: [34, 35, 36]
+  k: {t: CON, h: toggle}
+  l: [CON]
+- p: [34, 35]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [NAV&Fn]
+- p: [30, 29]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [NAV&Fn]
+- p: [35, 36]
+  k: $$mdi:keyboard-esc$$
+  l: [NAV&Fn]
+- p: [29, 28]
+  k: $$mdi:keyboard-esc$$
+  l: [NAV&Fn]
+- p: [29, 27, 30]
+  k: {t: CAD_B, h: toggle}
+  l: [DVORAK, BASE, NAV&Fn]
+- p: [28, 29, 30]
+  k: {t: CAD_B, h: toggle}
+  l: [CAD_B]
