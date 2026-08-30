@@ -109,6 +109,11 @@
             key-positions = <28 29 30>;
             layers = <5>;
         };
+
+        toBase {
+            bindings = <&to 0>;
+            key-positions = <28 29 30 34 35 36>;
+        };
     };
 
     hml: hml {
