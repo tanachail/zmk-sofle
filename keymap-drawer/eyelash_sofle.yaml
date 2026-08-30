@@ -554,3 +554,5 @@ combos:
 - p: [28, 29, 30]
   k: {t: CAD_B, h: toggle}
   l: [CAD_B]
+- p: [28, 29, 30, 34, 35, 36]
+  k: {t: DVORAK, h: toggle}
