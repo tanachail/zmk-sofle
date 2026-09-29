@@ -327,11 +327,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   CAD_B:
   - $$mdi:keyboard-esc$$
-  - '1'
-  - '2'
-  - '3'
+  - {t: '1', h: M}
+  - {t: '2', h: L}
+  - {t: '3', h: P}
   - '4'
-  - {t: '5', s: '%'}
+  - {t: '5', h: '6', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: CAD_B, h: toggle}
   - {t: CAD_B, h: toggle}
@@ -340,8 +340,8 @@ layers:
   - {t: CAD_B, h: toggle}
   - {t: CAD_B, h: toggle}
   - {t: '`', s: '~'}
-  - Q
-  - W
+  - {t: Q, h: Ctl+F}
+  - {t: W, h: HOME}
   - E
   - R
   - T
@@ -357,7 +357,7 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - G
+  - {t: G, h: L}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: CAD_B, h: toggle}
   - {t: CAD_B, h: toggle}
@@ -367,9 +367,9 @@ layers:
   - {t: CAD_B, h: toggle}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   - Z
-  - X
+  - {t: X, h: Ctl+Y}
   - C
-  - V
+  - {t: V, h: Ctl+Sft+M}
   - B
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: CAD_B, h: toggle}
