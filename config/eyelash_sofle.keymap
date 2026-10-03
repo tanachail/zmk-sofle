@@ -417,15 +417,6 @@
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
     };
 
-    cad_tap_dance: cad_tap_dance {
-        compatible = "zmk,behavior-tap-dance";
-        label = "CAD_TAP_DANCE";
-        #binding-cells = <0>;
-        bindings = <&lt 6 SPACE>, <&mo 7>;
-
-        tapping-term-ms = <175>;
-    };
-
     taprepeat: taprepeat {
         compatible = "zmk,behavior-hold-tap";
         label = "TAPREPEAT";
@@ -525,7 +516,7 @@
 &kp GRAVE                &kp Q           &mt HOME W      &taprepeat 0 E      &mt KP_PLUS R       &mt KP_SUBTRACT T    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &mt LEFT_SHIFT TAB       &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D    &mt LEFT_CONTROL F  &mt L G              &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &mt LEFT_CONTROL DELETE  &mt LC(Z) Z     &mt LC(Y) X     &kp C               &mt LC(M) V         &mt KP_ASTERISK B    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans                   &trans          &trans          &mt LEFT_ALT ENTER  &cad_tap_dance      &kp BACKSPACE        &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
+&trans                   &trans          &trans          &mt LEFT_ALT ENTER  &lt 6 SPACE         &kp BACKSPACE        &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
@@ -539,19 +530,6 @@
 &trans  &kp SEMICOLON  &kp L       &kp K      &kp J   &kp H           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp SLASH      &kp PERIOD  &kp COMMA  &kp M   &kp N           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans      &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            sensor-bindings = <&mouse_scroll_left>;
-        };
-
-        cad_symbol {
-            display-name = "CAD_S";
-            bindings = <
-&trans  &trans  &trans    &trans        &trans     &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp HOME  &kp UP_ARROW  &kp END    &kp PAGE_UP      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans        &trans     &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans        &trans     &trans           &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
