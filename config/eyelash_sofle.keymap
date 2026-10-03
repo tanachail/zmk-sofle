@@ -83,7 +83,7 @@
         Numpad_Enter2 {
             bindings = <&kp ENTER>;
             key-positions = <30 29>;
-            layers = <2>;
+            layers = <2 7>;
         };
 
         Numpad_ESC1 {
@@ -95,7 +95,7 @@
         Numpad_ESC2 {
             bindings = <&kp ESCAPE>;
             key-positions = <29 28>;
-            layers = <2>;
+            layers = <2 7>;
         };
 
         togCAD1 {
@@ -538,11 +538,11 @@
         cad_np {
             display-name = "CAD_NP";
             bindings = <
-&trans  &trans           &trans  &trans     &trans     &trans           &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans  &kp KP_SLASH     &kp N7  &kp N8     &kp N9     &kp KP_MINUS     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans  &kp KP_MULTIPLY  &kp N4  &kp N5     &kp N6     &kp KP_PLUS      &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans  &kp N0           &kp N1  &kp N2     &kp N3     &kp KP_DOT       &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans  &to 5            &trans  &kp SPACE  &kp ENTER  &kp BACKSPACE    &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
+&trans  &trans           &trans           &trans           &trans           &trans           &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&trans  &kp KP_ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&trans  &kp KP_SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&trans  &kp KP_EQUAL     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&trans  &to 5            &trans           &kp SPACE        &kp KP_N0        &kp BACKSPACE    &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
