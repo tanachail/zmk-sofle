@@ -342,7 +342,7 @@ layers:
   - {t: '`', s: '~'}
   - Q
   - {t: W, h: HOME}
-  - E
+  - {t: E, h: '&key_repeat'}
   - {t: R, h: KP PLUS}
   - {t: T, h: KP SUBTRACT}
   - {t: '$$mdi:transfer$$', type: trans}
