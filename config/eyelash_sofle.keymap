@@ -107,7 +107,7 @@
         togCAD2 {
             bindings = <&tog 5>;
             key-positions = <28 29 30>;
-            layers = <5>;
+            layers = <5 7>;
         };
 
         toBase {
@@ -516,7 +516,7 @@
 &kp GRAVE                &kp Q           &mt HOME W      &taprepeat 0 E      &mt KP_PLUS R       &mt KP_SUBTRACT T    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &mt LEFT_SHIFT TAB       &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D    &mt LEFT_CONTROL F  &mt L G              &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &mt LEFT_CONTROL DELETE  &mt LC(Z) Z     &mt LC(Y) X     &kp C               &mt LC(M) V         &mt KP_ASTERISK B    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans                   &trans          &trans          &mt LEFT_ALT ENTER  &lt 6 SPACE         &kp BACKSPACE        &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
+&trans                   &to 7           &trans          &mt LEFT_ALT ENTER  &lt 6 SPACE         &kp BACKSPACE        &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
@@ -533,6 +533,18 @@
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
+        };
+
+        cad_np {
+            bindings = <
+&trans  &trans           &trans        &trans        &trans        &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp KP_DIVIDE    &kp N7        &kp N8        &kp N9        &kp KP_SUBTRACT    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp KP_MULTIPLY  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SPACE          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &to 5            &trans        &kp KP_DOT    &kp ENTER     &kp BACKSPACE      &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "CAD_NP";
         };
     };
 
