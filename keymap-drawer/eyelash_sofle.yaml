@@ -330,7 +330,7 @@ layers:
   - {t: '1', h: M}
   - {t: '2', h: L}
   - {t: '3', h: P}
-  - '4'
+  - {t: '4', h: A}
   - {t: '5', h: '6', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: CAD_B, h: toggle}
@@ -340,11 +340,11 @@ layers:
   - {t: CAD_B, h: toggle}
   - {t: CAD_B, h: toggle}
   - {t: '`', s: '~'}
-  - {t: Q, h: Ctl+F}
+  - Q
   - {t: W, h: HOME}
   - E
-  - R
-  - T
+  - {t: R, h: KP PLUS}
+  - {t: T, h: KP SUBTRACT}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: CAD_B, h: toggle}
   - {t: CAD_B, h: toggle}
@@ -366,11 +366,11 @@ layers:
   - {t: CAD_B, h: toggle}
   - {t: CAD_B, h: toggle}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
-  - Z
+  - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+Y}
   - C
-  - {t: V, h: Ctl+Sft+M}
-  - B
+  - {t: V, h: Ctl+M}
+  - {t: B, h: KP ASTERISK}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: CAD_B, h: toggle}
   - {t: CAD_B, h: toggle}
