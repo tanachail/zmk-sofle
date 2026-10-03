@@ -512,7 +512,7 @@
         cad_base {
             display-name = "CAD_B";
             bindings = <
-&kp ESCAPE               &mt M NUMBER_1  &mt L NUMBER_2  &mt P NUMBER_3      &mt A NUMBER_4      &mt NUMBER_6 N5      &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
+&kp ESCAPE               &mt M NUMBER_1  &mt L NUMBER_2  &mt P NUMBER_3      &mt A N8            &mt NUMBER_6 N5      &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &kp GRAVE                &kp Q           &mt HOME W      &taprepeat 0 E      &mt KP_PLUS R       &mt KP_SUBTRACT T    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &mt LEFT_SHIFT TAB       &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D    &mt LEFT_CONTROL F  &mt L G              &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &mt LEFT_CONTROL DELETE  &mt LC(Z) Z     &mt LC(Y) X     &kp C               &mt LC(M) V         &mt KP_ASTERISK B    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
