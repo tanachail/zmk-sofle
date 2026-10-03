@@ -379,7 +379,7 @@ layers:
   - {t: CAD_B, h: toggle}
   - {t: CAD_B, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: CAD_NP, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: CAD_A}
@@ -463,12 +463,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP ASTERISK
   - KP 7
@@ -476,12 +476,12 @@ layers:
   - KP 9
   - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP SLASH
   - KP 4
@@ -489,12 +489,12 @@ layers:
   - KP 6
   - KP MINUS
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP EQUAL
   - KP 1
@@ -502,22 +502,22 @@ layers:
   - KP 3
   - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: CAD_B, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - KP 0
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
-  - {t: CAD_B, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
+  - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
@@ -553,6 +553,12 @@ combos:
   l: [DVORAK, BASE, NAV&Fn]
 - p: [28, 29, 30]
   k: {t: CAD_B, h: toggle}
-  l: [CAD_B, CAD_NP]
+  l: [CAD_B]
 - p: [28, 29, 30, 34, 35, 36]
   k: {t: DVORAK, h: toggle}
+- p: [15, 16, 17]
+  k: {t: CAD_NP, h: toggle}
+  l: [CAD_B, CAD_NP]
+- p: [28, 29, 30]
+  k: {t: CAD_NP, h: toggle}
+  l: [CAD_NP]
