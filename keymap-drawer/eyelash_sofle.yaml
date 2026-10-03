@@ -330,7 +330,7 @@ layers:
   - {t: '1', h: M}
   - {t: '2', h: L}
   - {t: '3', h: P}
-  - {t: '8', h: A, s: '*'}
+  - {t: '4', h: '8'}
   - {t: '5', h: '6', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: CAD_B, h: toggle}
