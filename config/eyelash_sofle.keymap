@@ -107,12 +107,24 @@
         togCAD2 {
             bindings = <&tog 5>;
             key-positions = <28 29 30>;
-            layers = <5 7>;
+            layers = <5>;
         };
 
         toBase {
             bindings = <&to 0>;
             key-positions = <28 29 30 34 35 36>;
+        };
+
+        togCadNP1 {
+            bindings = <&tog 7>;
+            key-positions = <15 16 17>;
+            layers = <5 7>;
+        };
+
+        togCadNP2 {
+            bindings = <&tog 7>;
+            key-positions = <28 29 30>;
+            layers = <7>;
         };
     };
 
@@ -429,6 +441,18 @@
         require-prior-idle-ms = <150>;
     };
 
+    layerhold: layerhold {
+        compatible = "zmk,behavior-hold-tap";
+        label = "LAYERHOLD";
+        bindings = <&tog>, <&kp>;
+
+        #binding-cells = <2>;
+        flavor = "balanced";
+        tapping-term-ms = <280>;
+        quick-tap-ms = <175>;
+        require-prior-idle-ms = <150>;
+    };
+
     behaviors {
     };
 
@@ -516,7 +540,7 @@
 &kp GRAVE                &kp Q           &mt HOME W      &taprepeat 0 E      &mt KP_PLUS R       &mt KP_SUBTRACT T    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &mt LEFT_SHIFT TAB       &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D    &mt LEFT_CONTROL F  &mt L G              &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
 &mt LEFT_CONTROL DELETE  &mt LC(Z) Z     &mt LC(Y) X     &kp C               &mt LC(M) V         &mt KP_ASTERISK B    &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans                   &to 7           &trans          &mt LEFT_ALT ENTER  &lt 6 SPACE         &kp BACKSPACE        &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
+&trans                   &trans          &trans          &mt LEFT_ALT ENTER  &lt 6 SPACE         &kp BACKSPACE        &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
@@ -538,11 +562,11 @@
         cad_np {
             display-name = "CAD_NP";
             bindings = <
-&trans  &trans           &trans           &trans           &trans           &trans           &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans  &kp KP_ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans  &kp KP_SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS     &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans  &kp KP_EQUAL     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5  &tog 5
-&trans  &to 5            &trans           &kp SPACE        &kp KP_N0        &kp BACKSPACE    &trans  &tog 5  &tog 5  &tog 5  &trans  &trans
+&trans  &trans           &trans           &trans           &trans           &trans           &trans  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
+&trans  &kp KP_ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &trans  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
+&trans  &kp KP_SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS     &trans  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
+&trans  &kp KP_EQUAL     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans  &to 0  &to 0  &to 0  &to 0   &to 0   &to 0
+&trans  &trans           &trans           &kp SPACE        &kp KP_N0        &kp BACKSPACE    &trans  &to 0  &to 0  &to 0  &trans  &trans
             >;
 
             sensor-bindings = <&mouse_scroll_left>;
