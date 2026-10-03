@@ -463,61 +463,61 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP DIVIDE
+  - KP SLASH
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - KP SUBTRACT
+  - KP MINUS
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MULTIPLY
-  - '4'
+  - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - '6'
+  - {t: '6', s: ^}
   - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
-  - '1'
-  - '2'
-  - '3'
-  - $$mdi:keyboard-space$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: CAD_B, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP DOT
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
+  - {t: CAD_B, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
