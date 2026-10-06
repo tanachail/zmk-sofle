@@ -470,11 +470,11 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP ASTERISK
-  - KP 7
-  - KP 8
-  - KP 9
   - KP PLUS
+  - KP 9
+  - KP 8
+  - KP 7
+  - KP MULTIPLY
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
@@ -483,11 +483,11 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP SLASH
-  - KP 4
-  - KP 5
-  - KP 6
   - KP MINUS
+  - KP 6
+  - KP 5
+  - KP 4
+  - KP DIVIDE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
@@ -496,11 +496,11 @@ layers:
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP EQUAL
-  - KP 1
-  - KP 2
-  - KP 3
   - KP DOT
+  - KP 3
+  - KP 2
+  - KP 1
+  - KP EQUAL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: DVORAK, h: toggle}
   - {t: DVORAK, h: toggle}
